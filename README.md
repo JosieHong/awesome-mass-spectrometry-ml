@@ -1,4 +1,4 @@
-# Molecular Representation Learning Paper Bank
+# Molecular Representation Learning Bank of Papers & Codes
 
 Updating the newest molecular representation learning methods... 
 
@@ -8,7 +8,7 @@ Updating the newest molecular representation learning methods...
 | Graph-Based  | 12      | 2D & 3D, Bonds are included in encoding |
 | SMILES-Based | 1       | 1D                                      |
 
-Welcome to update the paper list together! 😉
+Welcome to update the list together! 😉
 
 
 
