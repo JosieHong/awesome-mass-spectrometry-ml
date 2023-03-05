@@ -30,6 +30,8 @@ Because there are lots of graph-based models, we categorize them into supervised
 
 - [ICLR 2022] [SphereNet] Liu, Yi, et al. "Spherical message passing for 3d graph networks." arXiv preprint arXiv:2102.05013 (2021). [[paper]](https://arxiv.org/abs/2102.05013) [[code (implemented in DIG library)]](https://github.com/divelab/DIG) 
 
+- [Nat. Mach. Intell. 2022] [GEM] Fang, Xiaomin, et al. "Geometry-enhanced molecular representation learning for property prediction." Nature Machine Intelligence 4.2 (2022): 127-134. [[paper]](https://www.nature.com/articles/s42256-021-00438-4.) [[code]](https://github.com/PaddlePaddle/PaddleHelix/tree/dev/apps/pretrained_compound/ChemRL/GEM) 
+
 - [NeurIPS 2021] [GemNet] Gasteiger, Johannes, Florian Becker, and Stephan Günnemann. "Gemnet: Universal directional graph neural networks for molecules." Advances in Neural Information Processing Systems 34 (2021): 6790-6802. [[paper]](https://proceedings.neurips.cc/paper/2021/hash/35cf8659cfcb13224cbd47863a34fc58-Abstract.html) [[code]](https://github.com/TUM-DAML/gemnet_pytorch)
 
 - [NeurIPS 2020] [DimeNet++] Klicpera, Johannes, et al. "Fast and uncertainty-aware directional message passing for non-equilibrium molecules." arXiv preprint arXiv:2011.14115 (2020). [[paper]](https://arxiv.org/abs/2011.14115) [[code]](https://github.com/gasteigerjo/dimenet)
