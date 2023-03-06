@@ -2,11 +2,11 @@
 
 Updating the newest molecular representation learning methods... 
 
-|                | # Paper | Note                                    |
-|----------------|---------|-----------------------------------------|
-| Point-Based    | 2       | 3D, No bonds are included in encoding   |
-| Graph-Based    | 12      | 2D & 3D, Bonds are included in encoding |
-| Sequence-Based | 1       | 1D                                      |
+|                | # Paper | Note                       |
+|----------------|---------|----------------------------|
+| Point-Based    | 2       | 3D, No bonds are encoded   |
+| Graph-Based    | 13      | 2D & 3D, Bonds are encoded |
+| Sequence-Based | 1       | 1D                         |
 
 Welcome to update the list together! 😉
 
@@ -24,6 +24,20 @@ Welcome to update the list together! 😉
 
 Because there are lots of graph-based models, we categorize them into supervised learning methods and self-supervised methods. 
 
+### Self-Supervised Learning
+
+- [ICLR 2023] [GeoSSL-DDM] Liu, Shengchao, Hongyu Guo, and Jian Tang. "Molecular geometry pretraining with se (3)-invariant denoising distance matching." arXiv preprint arXiv:2206.13602 (2022). [[paper]](https://arxiv.org/abs/2206.13602) [[code]](https://github.com/chao1224/GeoSSL) 
+
+- [ICLR 2022] [GraphMVP] Liu, Shengchao, et al. "Pre-training molecular graph representation with 3d geometry." arXiv preprint arXiv:2110.07728 (2021). [[paper]](https://arxiv.org/abs/2110.07728) [[code]](https://github.com/chao1224/GraphMVP) 
+
+- [NeurIPS 2021] [MGSSL] Zhang, Zaixi, et al. "Motif-based graph self-supervised learning for molecular property prediction." Advances in Neural Information Processing Systems 34 (2021): 15870-15882. [[paper]](https://arxiv.org/abs/2110.00987) [[code]](https://github.com/zaixizhang/MGSSL) 
+
+- [NeurIPS 2020] [GROVER] Rong, Yu, et al. "Self-supervised graph transformer on large-scale molecular data." Advances in Neural Information Processing Systems 33 (2020): 12559-12571. [[paper]](https://proceedings.neurips.cc/paper/2020/hash/94aef38441efa3380a3bed3faf1f9d5d-Abstract.html) [[code]](https://github.com/tencent-ailab/grover)
+
+- [ICLR 2020] [InfoGraph] Sun, Fan-Yun, et al. "Infograph: Unsupervised and semi-supervised graph-level representation learning via mutual information maximization." arXiv preprint arXiv:1908.01000 (2019). [[paper]](https://arxiv.org/abs/1908.01000) [[code]](https://github.com/sunfanyunn/InfoGraph) 
+
+
+
 ### Supervised Learning
 
 - [ICLR 2022] [MolR] Wang, Hongwei, et al. "Chemical-reaction-aware molecule representation learning." arXiv preprint arXiv:2109.09888 (2021). [[paper]](https://arxiv.org/abs/2109.09888) [[code]](https://github.com/hwwang55/MolR) 
@@ -39,18 +53,6 @@ Because there are lots of graph-based models, we categorize them into supervised
 - [ICLR 2020] [DimeNet] Gasteiger, Johannes, Janek Groß, and Stephan Günnemann. "Directional message passing for molecular graphs." arXiv preprint arXiv:2003.03123 (2020). [[paper]](https://arxiv.org/abs/2003.03123) [[code]](https://github.com/gasteigerjo/dimenet)
 
 - [PMLR 2017] Gilmer, Justin, et al. "Neural message passing for quantum chemistry." International conference on machine learning. PMLR, 2017. [[paper]](https://proceedings.mlr.press/v70/gilmer17a) [[code]](https://github.com/priba/nmp_qc) 
-
-
-
-### Self-Supervised Learning
-
-- [ICLR 2022] [GraphMVP] Liu, Shengchao, et al. "Pre-training molecular graph representation with 3d geometry." arXiv preprint arXiv:2110.07728 (2021). [[paper]](https://arxiv.org/abs/2110.07728) [[code]](https://github.com/chao1224/GraphMVP) 
-
-- [NeurIPS 2021] [MGSSL] Zhang, Zaixi, et al. "Motif-based graph self-supervised learning for molecular property prediction." Advances in Neural Information Processing Systems 34 (2021): 15870-15882. [[paper]](https://arxiv.org/abs/2110.00987) [[code]](https://github.com/zaixizhang/MGSSL) 
-
-- [NeurIPS 2020] [GROVER] Rong, Yu, et al. "Self-supervised graph transformer on large-scale molecular data." Advances in Neural Information Processing Systems 33 (2020): 12559-12571. [[paper]](https://proceedings.neurips.cc/paper/2020/hash/94aef38441efa3380a3bed3faf1f9d5d-Abstract.html) [[code]](https://github.com/tencent-ailab/grover)
-
-- [ICLR 2020] [InfoGraph] Sun, Fan-Yun, et al. "Infograph: Unsupervised and semi-supervised graph-level representation learning via mutual information maximization." arXiv preprint arXiv:1908.01000 (2019). [[paper]](https://arxiv.org/abs/1908.01000) [[code]](https://github.com/sunfanyunn/InfoGraph) 
 
 
 
