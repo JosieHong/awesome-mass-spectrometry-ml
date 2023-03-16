@@ -40,6 +40,8 @@ Because there are lots of graph-based models, we categorize them into supervised
 
 ### Supervised Learning
 
+- [ICLR 2022] [GNS+Noisy Nodes] Godwin, Jonathan, et al. "Simple GNN regularisation for 3D molecular property prediction & beyond." arXiv preprint arXiv:2106.07971 (2021). [[paper]](https://arxiv.org/abs/2106.07971) [[codes are not available now]]()😥
+
 - [ICLR 2022] [MolR] Wang, Hongwei, et al. "Chemical-reaction-aware molecule representation learning." arXiv preprint arXiv:2109.09888 (2021). [[paper]](https://arxiv.org/abs/2109.09888) [[code]](https://github.com/hwwang55/MolR) 
 
 - [ICLR 2022] [SphereNet] Liu, Yi, et al. "Spherical message passing for 3d graph networks." arXiv preprint arXiv:2102.05013 (2021). [[paper]](https://arxiv.org/abs/2102.05013) [[code (implemented in DIG library)]](https://github.com/divelab/DIG) 
