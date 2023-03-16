@@ -5,7 +5,7 @@ Updating the newest molecular representation learning methods...
 |                | # Paper | Note                       |
 |----------------|---------|----------------------------|
 | Point-Based    | 2       | 3D, No bonds are encoded   |
-| Graph-Based    | 13      | 2D & 3D, Bonds are encoded |
+| Graph-Based    | 14      | 2D & 3D, Bonds are encoded |
 | Sequence-Based | 1       | 1D                         |
 
 Welcome to update the list together! 😉
