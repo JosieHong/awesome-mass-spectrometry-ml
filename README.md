@@ -54,7 +54,11 @@ Because there are lots of graph-based models, we categorize them into supervised
 
 - [ICLR 2020] [DimeNet] Gasteiger, Johannes, Janek Groß, and Stephan Günnemann. "Directional message passing for molecular graphs." arXiv preprint arXiv:2003.03123 (2020). [[paper]](https://arxiv.org/abs/2003.03123) [[code]](https://github.com/gasteigerjo/dimenet)
 
+- [Chem. Mater 2019] [MEGNet] Chen, Chi, et al. "Graph networks as a universal machine learning framework for molecules and crystals." Chemistry of Materials 31.9 (2019): 3564-3572. [[paper]](https://pubs.acs.org/doi/full/10.1021/acs.chemmater.9b01294?casa_token=Qt91hGc97ywAAAAA%3A_uRAvtFkZVg-YHOeSw1mgP5K-pHBPqUpErJFugRveatjcHKJzcsoQACGsBbIxXJ0CFrY2Ug2jnXgcA) [[code]](https://github.com/materialsvirtuallab/megnet)
+
 - [PMLR 2017] Gilmer, Justin, et al. "Neural message passing for quantum chemistry." International conference on machine learning. PMLR, 2017. [[paper]](https://proceedings.mlr.press/v70/gilmer17a) [[code]](https://github.com/priba/nmp_qc) 
+
+- [NeurIPS 2015] [Neural Graph Fingerprints] Duvenaud, David K., et al. "Convolutional networks on graphs for learning molecular fingerprints." Advances in neural information processing systems 28 (2015). [[paper]](https://proceedings.neurips.cc/paper/2015/hash/f9be311e65d81a9ad8150a60844bb94c-Abstract.html) [[code]](https://github.com/HIPS/neural-fingerprint)
 
 
 
