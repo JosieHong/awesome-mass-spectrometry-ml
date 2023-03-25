@@ -1,4 +1,12 @@
-The generative deep learning methods are categorized as SMILES string generator, molecular graph generator, and molecular conformation generator. It is worth noting that the differences between the second and the third categories are for molecular graphs only the atom type and the connections (also known as bonds) are predicted while for the conformations the $x,y,z$-coordinates of the atoms are predicted. 
+Based on their training strategies, deep molecular generative models can be classified into two categories: reinforcement learning (RL)-based methods, which generate molecules with desired properties, and unsupervised (UL)-based or self-supervised (SSL)-based methods, which aim to generate as many molecules as possible. According to the molecular representations, the UL-based and SSL-based methods can be further categorized as SMILES string generators, molecular graph generators, and molecular conformation generators. It is worth noting that the differences between the second and the third categories are for molecular graphs only the atom type and the connections (also known as bonds) are predicted while for the conformations the $x,y,z$-coordinates of the atoms are predicted. 
+
+
+
+## RL-Based Generators
+
+- [NeurIPS 2018] [GCPN] You, Jiaxuan, et al. "Graph convolutional policy network for goal-directed molecular graph generation." Advances in neural information processing systems 31 (2018). [[paper]](https://proceedings.neurips.cc/paper/2018/hash/d60678e8f2ba9c540798ebbde31177e8-Abstract.html) [[code]](https://github.com/bowenliu16/rl_graph_generation) 
+
+- [Sci. Adv. 2018] [ReLeaSE] Popova, Mariya, Olexandr Isayev, and Alexander Tropsha. "Deep reinforcement learning for de novo drug design." Science advances 4.7 (2018): eaap7885. [[paper]](https://www.science.org/doi/10.1126/sciadv.aap7885) [[code]](https://github.com/isayev/ReLeaSE)
 
 
 
@@ -8,21 +16,37 @@ The generative deep learning methods are categorized as SMILES string generator,
 
 ## Molecular Graph Generators
 
-- [] [] ... [[paper]]() [[code]]()
+- [ICLR 2022 (Oral)] [DEG] Guo, Minghao, et al. "Data-efficient graph grammar learning for molecular generation." arXiv preprint arXiv:2203.08031 (2022). [[paper]](https://openreview.net/forum?id=l4IHywGq6a) [[code]](https://github.com/gmh14/data_efficient_grammar) 
 
-- [] [] ... [[paper]]() [[code]]()
+- [ICLR 2022 (Spotlight)] [STGG] Ahn, Sungsoo, et al. "Spanning tree-based graph generation for molecules." International Conference on Learning Representations. 2021. [[paper]](https://openreview.net/forum?id=w60btE_8T2m) 😢 No official codes are available. 
+
+- [Chem. Sci. 2021] [STONED] Nigam, AkshatKumar, et al. "Beyond generative models: superfast traversal, optimization, novelty, exploration and discovery (STONED) algorithm for molecules using SELFIES." Chemical science 12.20 (2021): 7079-7090. [[paper]](https://pubs.rsc.org/en/content/articlehtml/2021/sc/d1sc00231g) [[code]](https://github.com/aspuru-guzik-group/stoned-selfies) 
+
+- [ICML 2021] [GraphDF] Luo, Youzhi, Keqiang Yan, and Shuiwang Ji. "Graphdf: A discrete flow model for molecular graph generation." International Conference on Machine Learning. PMLR, 2021. [[paper]](https://proceedings.mlr.press/v139/luo21a.html) [[code]](https://github.com/lakshayguta/BTP/tree/378aac3ae9620aac43a995bcbfb71288593a04c9/DIG-main/dig/ggraph/GraphDF) 
+
+- [ICML 2020] [RationaleRL] Jin, Wengong, Regina Barzilay, and Tommi Jaakkola. "Multi-objective molecule generation using interpretable substructures." International conference on machine learning. PMLR, 2020. [[paper]](https://proceedings.mlr.press/v119/jin20b.html) [[code]](https://github.com/wengong-jin/multiobj-rationale) 
+
+- [ICLR 2020] [GraphAF] Shi, Chence, et al. "Graphaf: a flow-based autoregressive model for molecular graph generation." arXiv preprint arXiv:2001.09382 (2020). [[paper]](https://arxiv.org/abs/2001.09382) [[code]](https://github.com/DeepGraphLearning/GraphAF) 
+
+- [ICML 2020] Jin, Wengong, Regina Barzilay, and Tommi Jaakkola. "Hierarchical generation of molecular graphs using structural motifs." International conference on machine learning. PMLR, 2020. [[paper]](https://proceedings.mlr.press/v119/jin20a.html) [[code]](https://github.com/wengong-jin/hgraph2graph/)
+
+- [NeurIPS 2018] [CGVAE] Liu, Qi, et al. "Constrained graph variational autoencoders for molecule design." Advances in neural information processing systems 31 (2018). [[paper]](https://proceedings.neurips.cc/paper/2018/hash/b8a03c5c15fcfa8dae0b03351eb1742f-Abstract.html) [[code]](https://github.com/drigoni/ConditionalCGVAE) 
+
+- [ICML 2018] [JT-VAE] Jin, Wengong, Regina Barzilay, and Tommi Jaakkola. "Junction tree variational autoencoder for molecular graph generation." International conference on machine learning. PMLR, 2018. [[paper]](https://proceedings.mlr.press/v80/jin18a.html) [[code]](https://github.com/wengong-jin/icml18-jtnn)
 
 
 
 ## SMILES String Generators
 
-- [Sci. Adv. 2018] [ReLeaSE] Popova, Mariya, Olexandr Isayev, and Alexander Tropsha. "Deep reinforcement learning for de novo drug design." Science advances 4.7 (2018): eaap7885. [[paper]](https://www.science.org/doi/10.1126/sciadv.aap7885) [[code]](https://github.com/isayev/ReLeaSE)
+- [arXiv 2018] [ORGAN] Guimaraes, Gabriel Lima, et al. "Objective-reinforced generative adversarial networks (organ) for sequence generation models." arXiv preprint arXiv:1705.10843 (2017). [[paper]](https://arxiv.org/abs/1705.10843) [[code]](https://github.com/gablg1/ORGAN)
 
 - [J Chem Inf Model 2018] [BIMODAL] Grisoni, Francesca, et al. "Bidirectional molecule generation with recurrent neural networks." Journal of chemical information and modeling 60.3 (2020): 1175-1183. [[paper]](https://pubs.acs.org/doi/full/10.1021/acs.jcim.9b00943) [[code]](https://github.com/ETHmodlab/BIMODAL) 
 
-- [ACS Cent. Sci. 2018] Gómez-Bombarelli, Rafael, et al. "Automatic chemical design using a data-driven continuous representation of molecules." ACS central science 4.2 (2018): 268-276. [[paper]](https://pubs.acs.org/doi/10.1021/acscentsci.7b00572) [[unofficial code]](https://github.com/aksub99/molecular-vae) 😢 No official codes are available.
+- [ACS Cent. Sci. 2018] [VSeq2Seq] Gómez-Bombarelli, Rafael, et al. "Automatic chemical design using a data-driven continuous representation of molecules." ACS central science 4.2 (2018): 268-276. [[paper]](https://pubs.acs.org/doi/10.1021/acscentsci.7b00572) [[unofficial code]](https://github.com/aksub99/molecular-vae) 😢 No official codes are available.
 
 - [ACS Cent. Sci. 2018] Segler, Marwin HS, et al. "Generating focused molecule libraries for drug discovery with recurrent neural networks." ACS central science 4.1 (2018): 120-131. [[paper]](https://pubs.acs.org/doi/full/10.1021/acscentsci.7b00512) [[unofficial code]](https://github.com/jaechanglim/molecule-generator) 😢 No official codes are available.
+
+- [ICML/PMLR 2017] [GVAE] Kusner, Matt J., Brooks Paige, and José Miguel Hernández-Lobato. "Grammar variational autoencoder." International conference on machine learning. PMLR, 2017. [[paper]](https://arxiv.org/abs/1703.01925) [[code]](https://github.com/mkusner/grammarVAE) 
 
 
 

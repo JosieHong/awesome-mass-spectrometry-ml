@@ -67,3 +67,11 @@ Because there are lots of graph-based models, we categorize them into supervised
 ## Sequence-Based Methods
 
 - [BCB 2019] [SMILES-BERT] Wang, Sheng, et al. "SMILES-BERT: large scale unsupervised pre-training for molecular property prediction." Proceedings of the 10th ACM international conference on bioinformatics, computational biology and health informatics. 2019. [[paper]](https://dl.acm.org/doi/abs/10.1145/3307339.3342186?casa_token=ROSIBxMX2UkAAAAA:q9M-DLpNJozQWqWEABwskuANeWuj8dPhU9ijopTfmnXJw3l7bjUuKEXI-br4yc4PG5cxVU5MT5Y) [[code]](https://github.com/uta-smile/SMILES-BERT)
+
+
+
+<!-- ## Format
+
+- [conference/journal name year] <MLA cite> [[paper]]() [[code]]() 
+
+-->

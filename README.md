@@ -1,6 +1,6 @@
-# Molecular Related Papers & Codes
+# Molecular Related Deep Learning Papers & Codes
 
-Updating the newest molecular representation learning methods... Welcome to update the list together! 
+Updating the molecular representation learning methods... 
 
 Collecting rules: 
 
@@ -9,7 +9,7 @@ Collecting rules:
 2. Format: 
 
 ```markdown
-- [conference/journal name year] <MLA cite> [[paper]]() [[code]]() 
+- [conference/journal name year] [(optional) model name] <MLA cite> [[paper]]() [[code]]() 
 ```
 
 3. Don't aim to collect all the papers, but high-quality papers. 
@@ -24,13 +24,14 @@ Collecting rules:
 | Graph-Based                    | 16      | 2D & 3D, Bonds are encoded |
 | Sequence-Based                 | 1       | 1D                         |
 
----
-
 **Molecular generation** list is [[here]](./generative_models.md). 
 
 |                                  | # paper |
 |----------------------------------|---------|
+| RL-Based Generator               | 2       |
 | Molecular Conformation Generator | 0       |
-| Molecular Graph Generator        | 0       |
-| SMILES String Generator          | 4       |
+| Molecular Graph Generator        | 9       |
+| SMILES String Generator          | 5       |
+
+**Molecular optimization** list is [[here]](./mol_optimization.md). 
 
