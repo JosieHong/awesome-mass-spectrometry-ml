@@ -4,17 +4,18 @@ Updating the molecular representation learning methods...
 
 Collecting rules: 
 
+```markdown
 1. Papers without any implementation codes are excluded from this list. 
 
 2. Format: 
-
-```markdown
-- [conference/journal name year] [(optional) model name] <MLA cite> [[paper]]() [[code]]() 
-```
+    - [conference/journal name year] [(optional) model name] <MLA cite> [[paper]]() [[code]]() 
 
 3. Don't aim to collect all the papers, but high-quality papers. 
+```
 
---- 
+
+
+## Statistics
 
 **Molecular representation learning & properties prediction** list is [[here]](prediction_models.md). 
 
@@ -26,12 +27,12 @@ Collecting rules:
 
 **Molecular generation** list is [[here]](./generative_models.md). 
 
-|                                  | # paper |
-|----------------------------------|---------|
-| RL-Based Generator               | 2       |
-| Molecular Conformation Generator | 0       |
-| Molecular Graph Generator        | 9       |
-| SMILES String Generator          | 5       |
+|                                  | # paper  |
+|----------------------------------|----------|
+| RL-Based Generator               | 2        |
+| Molecular Conformation Generator | 0        |
+| Molecular Graph Generator        | 11       |
+| SMILES String Generator          | 6        |
 
-**Molecular optimization** list is [[here]](./mol_optimization.md). 
+**Molecular optimization** list is [[here]](./optimization_models.md). 
 

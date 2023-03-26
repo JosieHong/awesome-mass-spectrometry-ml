@@ -20,23 +20,29 @@ Based on their training strategies, deep molecular generative models can be clas
 
 - [ICLR 2022 (Spotlight)] [STGG] Ahn, Sungsoo, et al. "Spanning tree-based graph generation for molecules." International Conference on Learning Representations. 2021. [[paper]](https://openreview.net/forum?id=w60btE_8T2m) 😢 No official codes are available. 
 
-- [Chem. Sci. 2021] [STONED] Nigam, AkshatKumar, et al. "Beyond generative models: superfast traversal, optimization, novelty, exploration and discovery (STONED) algorithm for molecules using SELFIES." Chemical science 12.20 (2021): 7079-7090. [[paper]](https://pubs.rsc.org/en/content/articlehtml/2021/sc/d1sc00231g) [[code]](https://github.com/aspuru-guzik-group/stoned-selfies) 
-
 - [ICML 2021] [GraphDF] Luo, Youzhi, Keqiang Yan, and Shuiwang Ji. "Graphdf: A discrete flow model for molecular graph generation." International Conference on Machine Learning. PMLR, 2021. [[paper]](https://proceedings.mlr.press/v139/luo21a.html) [[code]](https://github.com/lakshayguta/BTP/tree/378aac3ae9620aac43a995bcbfb71288593a04c9/DIG-main/dig/ggraph/GraphDF) 
 
 - [ICML 2020] [RationaleRL] Jin, Wengong, Regina Barzilay, and Tommi Jaakkola. "Multi-objective molecule generation using interpretable substructures." International conference on machine learning. PMLR, 2020. [[paper]](https://proceedings.mlr.press/v119/jin20b.html) [[code]](https://github.com/wengong-jin/multiobj-rationale) 
 
 - [ICLR 2020] [GraphAF] Shi, Chence, et al. "Graphaf: a flow-based autoregressive model for molecular graph generation." arXiv preprint arXiv:2001.09382 (2020). [[paper]](https://arxiv.org/abs/2001.09382) [[code]](https://github.com/DeepGraphLearning/GraphAF) 
 
-- [ICML 2020] Jin, Wengong, Regina Barzilay, and Tommi Jaakkola. "Hierarchical generation of molecular graphs using structural motifs." International conference on machine learning. PMLR, 2020. [[paper]](https://proceedings.mlr.press/v119/jin20a.html) [[code]](https://github.com/wengong-jin/hgraph2graph/)
+- [ICML 2020] [HierVAE] Jin, Wengong, Regina Barzilay, and Tommi Jaakkola. "Hierarchical generation of molecular graphs using structural motifs." International conference on machine learning. PMLR, 2020. [[paper]](https://proceedings.mlr.press/v119/jin20a.html) [[code]](https://github.com/wengong-jin/hgraph2graph/)
+
+- [arXiv 2019] [GraphNVP] Madhawa, Kaushalya, et al. "Graphnvp: An invertible flow model for generating molecular graphs." arXiv preprint arXiv:1905.11600 (2019). [[paper]](https://arxiv.org/abs/1905.11600) [[code]](https://github.com/pfnet-research/graph-nvp)
 
 - [NeurIPS 2018] [CGVAE] Liu, Qi, et al. "Constrained graph variational autoencoders for molecule design." Advances in neural information processing systems 31 (2018). [[paper]](https://proceedings.neurips.cc/paper/2018/hash/b8a03c5c15fcfa8dae0b03351eb1742f-Abstract.html) [[code]](https://github.com/drigoni/ConditionalCGVAE) 
 
+- [NeurIPS 2018] Ma, Tengfei, Jie Chen, and Cao Xiao. "Constrained generation of semantically valid graphs via regularizing variational autoencoders." Advances in Neural Information Processing Systems 31 (2018). [[paper]](https://proceedings.neurips.cc/paper/2018/hash/1458e7509aa5f47ecfb92536e7dd1dc7-Abstract.html) 😢 No official codes are available. 
+
 - [ICML 2018] [JT-VAE] Jin, Wengong, Regina Barzilay, and Tommi Jaakkola. "Junction tree variational autoencoder for molecular graph generation." International conference on machine learning. PMLR, 2018. [[paper]](https://proceedings.mlr.press/v80/jin18a.html) [[code]](https://github.com/wengong-jin/icml18-jtnn)
+
+- [ICML 2018] [MolGAN] De Cao, Nicola, and Thomas Kipf. "MolGAN: An implicit generative model for small molecular graphs." arXiv preprint arXiv:1805.11973 (2018). [[paper]](https://arxiv.org/abs/1805.11973) [[code]](https://github.com/nicola-decao/MolGAN)
 
 
 
 ## SMILES String Generators
+
+- [Chem. Sci. 2021] [STONED] Nigam, AkshatKumar, et al. "Beyond generative models: superfast traversal, optimization, novelty, exploration and discovery (STONED) algorithm for molecules using SELFIES." Chemical science 12.20 (2021): 7079-7090. [[paper]](https://pubs.rsc.org/en/content/articlehtml/2021/sc/d1sc00231g) [[code]](https://github.com/aspuru-guzik-group/stoned-selfies) 
 
 - [arXiv 2018] [ORGAN] Guimaraes, Gabriel Lima, et al. "Objective-reinforced generative adversarial networks (organ) for sequence generation models." arXiv preprint arXiv:1705.10843 (2017). [[paper]](https://arxiv.org/abs/1705.10843) [[code]](https://github.com/gablg1/ORGAN)
 
