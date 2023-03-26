@@ -12,6 +12,26 @@ Based on their training strategies, deep molecular generative models can be clas
 
 ## Molecular Conformation Generators
 
+- [ICLR 2022 (Oral)] [GeoDiff] Xu, Minkai, et al. "Geodiff: A geometric diffusion model for molecular conformation generation." arXiv preprint arXiv:2203.02923 (2022). [[paper]](https://openreview.net/forum?id=PzcvxEMzvQC) [[code]](https://github.com/MinkaiXu/GeoDiff) 
+
+- [TMLR 2022] [DMCG] Zhu, Jinhua, et al. "Direct molecular conformation generation." arXiv preprint arXiv:2202.01356 (2022). [[paper]](https://arxiv.org/abs/2202.01356) [[code]](https://github.com/DirectMolecularConfGen/DMCG) 
+
+- [NeurIPS 2021] [GeoMol] Ganea, Octavian, et al. "Geomol: Torsional geometric generation of molecular 3d conformer ensembles." Advances in Neural Information Processing Systems 34 (2021): 13757-13769. [[paper]](https://proceedings.neurips.cc/paper/2021/hash/725215ed82ab6306919b485b81ff9615-Abstract.html) [[code]](https://github.com/PattanaikL/GeoMol)
+
+- [NeurIPS 2021] [DGSM] Luo, Shitong, et al. "Predicting molecular conformation via dynamic graph score matching." Advances in Neural Information Processing Systems 34 (2021): 19784-19795. [[paper]](https://proceedings.neurips.cc/paper/2021/hash/a45a1d12ee0fb7f1f872ab91da18f899-Abstract.html) 😢 No official codes are available.
+
+- [ICML 2021] [ConfGF] Shi, Chence, et al. "Learning gradient fields for molecular conformation generation." International Conference on Machine Learning. PMLR, 2021. [[paper]](http://proceedings.mlr.press/v139/shi21b.html) [[code]](https://github.com/DeepGraphLearning/ConfGF) 
+
+- [ICML 2021] [ConfVAE] Xu, Minkai, et al. "An end-to-end framework for molecular conformation generation via bilevel programming." International Conference on Machine Learning. PMLR, 2021. [[paper]](http://proceedings.mlr.press/v139/xu21f.html) [[code]](https://github.com/MinkaiXu/ConfVAE-ICML21) 
+
+- [ICLR 2021] [CGCF] Xu, Minkai, et al. "Learning neural generative dynamics for molecular conformation generation." arXiv preprint arXiv:2102.10240 (2021). [[paper]](https://arxiv.org/abs/2102.10240) [[code]](https://github.com/DeepGraphLearning/CGCF-ConfGen) 
+
+- [NeurIPS 2020] [TorsionNet] Gogineni, Tarun, et al. "Torsionnet: A reinforcement learning approach to sequential conformer search." Advances in Neural Information Processing Systems 33 (2020): 20142-20153. [[paper]](https://proceedings.neurips.cc/paper/2020/hash/e904831f48e729f9ad8355a894334700-Abstract.html) [[code]](https://github.com/tarungog/torsionnet_paper_version) 
+
+- [ICML 2020] [GraphDG] Simm, Gregor NC, and José Miguel Hernández-Lobato. "A generative model for molecular distance geometry." arXiv preprint arXiv:1909.11459 (2019). [[paper]](https://arxiv.org/abs/1909.11459) [[code]](https://github.com/gncs/graphdg) 
+
+- [Sci. Rep. 2019] [CVGAE] Mansimov, Elman, et al. "Molecular geometry prediction using a deep generative graph neural network." Scientific reports 9.1 (2019): 20381. [[paper]](https://www.nature.com/articles/s41598-019-56773-5) [[code]](https://github.com/nyu-dl/dl4chem-geometry) 
+
 
 
 ## Molecular Graph Generators

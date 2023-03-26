@@ -1,6 +1,6 @@
 # Molecular Related Deep Learning Papers & Codes
 
-Updating the molecular representation learning methods... 
+Updating the molecular-related deep learning methods... 
 
 Collecting rules: 
 
@@ -9,8 +9,6 @@ Collecting rules:
 
 2. Format: 
     - [conference/journal name year] [(optional) model name] <MLA cite> [[paper]]() [[code]]() 
-
-3. Don't aim to collect all the papers, but high-quality papers. 
 ```
 
 
@@ -30,7 +28,7 @@ Collecting rules:
 |                                  | # paper  |
 |----------------------------------|----------|
 | RL-Based Generator               | 2        |
-| Molecular Conformation Generator | 0        |
+| Molecular Conformation Generator | 10       |
 | Molecular Graph Generator        | 11       |
 | SMILES String Generator          | 6        |
 
