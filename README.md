@@ -17,6 +17,8 @@ Collecting rules:
 
 **Molecular representation learning & properties prediction** list is [[here]](prediction_models.md). 
 
+The molecular representation learning or properties prediction models are categorized as point-based (or quantum-based) methods, graph-based methods, and sequence-based methods. Because the number of graph-based methods is huge, they are further divided into self-supervised learning and supervised learning manners. It is worth noting that the difference between point-based (or quantum-based) methods and graph-based methods is if bonds (i.e. edges) are included in the encoding. 
+
 |                                | # Paper | Note                       |
 |--------------------------------|---------|----------------------------|
 | Point-Based (or Quantum-Based) | 2       | 3D, No bonds are encoded   |
@@ -25,12 +27,15 @@ Collecting rules:
 
 **Molecular generation** list is [[here]](./generative_models.md). 
 
-|                                  | # paper  |
-|----------------------------------|----------|
-| RL-Based Generator               | 2        |
-| Molecular Conformation Generator | 10       |
-| Molecular Graph Generator        | 11       |
-| SMILES String Generator          | 6        |
+Based on the training strategies, deep molecular generative models can be classified into two categories: reinforcement learning (RL)-based methods, which generate molecules with desired properties; unsupervised (UL)-based or self-supervised (SSL)-based methods, which aim to generate valid, novel, and diverse molecules; supervised (SL)-based methods generating molecular three-dimensional conformations from molecular graphs. 
+
+|                                                         | # paper  |
+|---------------------------------------------------------|----------|
+| RL-Based Generator                                      | 2        |
+| SL-Based Generator - Molecular Conformation             | 10       |
+| UL-Based & SSL-Based Generator - Molecular Graph        | 11       |
+| UL-Based & SSL-Based Generator - SMILES String          | 6        |
 
 **Molecular optimization** list is [[here]](./optimization_models.md). 
 
+Coming soon...

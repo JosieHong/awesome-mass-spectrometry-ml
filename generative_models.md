@@ -1,6 +1,4 @@
-Based on their training strategies, deep molecular generative models can be classified into two categories: reinforcement learning (RL)-based methods, which generate molecules with desired properties, and unsupervised (UL)-based or self-supervised (SSL)-based methods, which aim to generate as many molecules as possible. According to the molecular representations, the UL-based and SSL-based methods can be further categorized as SMILES string generators, molecular graph generators, and molecular conformation generators. It is worth noting that the differences between the second and the third categories are for molecular graphs only the atom type and the connections (also known as bonds) are predicted while for the conformations the $x,y,z$-coordinates of the atoms are predicted. 
-
-
+Based on the training strategies, deep molecular generative models can be classified into two categories: reinforcement learning (RL)-based methods, which generate molecules with desired properties; unsupervised (UL)-based or self-supervised (SSL)-based methods, which aim to generate valid, novel, and diverse molecules; supervised (SL)-based methods generating molecular three-dimensional conformations from molecular graphs. 
 
 ## RL-Based Generators
 
@@ -10,7 +8,7 @@ Based on their training strategies, deep molecular generative models can be clas
 
 
 
-## Molecular Conformation Generators
+## SL-Based Generator - Molecular Conformation
 
 - [ICLR 2022 (Oral)] [GeoDiff] Xu, Minkai, et al. "Geodiff: A geometric diffusion model for molecular conformation generation." arXiv preprint arXiv:2203.02923 (2022). [[paper]](https://openreview.net/forum?id=PzcvxEMzvQC) [[code]](https://github.com/MinkaiXu/GeoDiff) 
 
@@ -34,7 +32,7 @@ Based on their training strategies, deep molecular generative models can be clas
 
 
 
-## Molecular Graph Generators
+## UL-Based & SSL-Based Generator - Molecular Graph
 
 - [ICLR 2022 (Oral)] [DEG] Guo, Minghao, et al. "Data-efficient graph grammar learning for molecular generation." arXiv preprint arXiv:2203.08031 (2022). [[paper]](https://openreview.net/forum?id=l4IHywGq6a) [[code]](https://github.com/gmh14/data_efficient_grammar) 
 
@@ -60,7 +58,7 @@ Based on their training strategies, deep molecular generative models can be clas
 
 
 
-## SMILES String Generators
+## UL-Based & SSL-Based Generator - SMILES String
 
 - [Chem. Sci. 2021] [STONED] Nigam, AkshatKumar, et al. "Beyond generative models: superfast traversal, optimization, novelty, exploration and discovery (STONED) algorithm for molecules using SELFIES." Chemical science 12.20 (2021): 7079-7090. [[paper]](https://pubs.rsc.org/en/content/articlehtml/2021/sc/d1sc00231g) [[code]](https://github.com/aspuru-guzik-group/stoned-selfies) 
 

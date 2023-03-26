@@ -1,7 +1,5 @@
 The molecular representation learning or properties prediction models are categorized as point-based (or quantum-based) methods, graph-based methods, and sequence-based methods. Because the number of graph-based methods is huge, they are further divided into self-supervised learning and supervised learning manners. It is worth noting that the difference between point-based (or quantum-based) methods and graph-based methods is if bonds (i.e. edges) are included in the encoding. 
 
-
-
 ## Point-Based (or Quantum-Based) Methods 
 
 - [ICLR 2023] Zhou, Gengmo, et al. "Uni-mol: A universal 3d molecular representation learning framework." (2023). [[paper]](https://chemrxiv.org/engage/chemrxiv/article-details/6402990d37e01856dc1d1581) [[code]](https://github.com/dptech-corp/Uni-Mol)
