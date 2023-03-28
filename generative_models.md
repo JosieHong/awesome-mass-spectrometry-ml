@@ -12,6 +12,8 @@ Based on the training strategies, deep molecular generative models can be classi
 
 - [ICLR 2022 (Oral)] [GeoDiff] Xu, Minkai, et al. "Geodiff: A geometric diffusion model for molecular conformation generation." arXiv preprint arXiv:2203.02923 (2022). [[paper]](https://openreview.net/forum?id=PzcvxEMzvQC) [[code]](https://github.com/MinkaiXu/GeoDiff) 
 
+- [NeurIPS 2022] [torsional diffusion] Jing, Bowen, et al. "Torsional diffusion for molecular conformer generation." arXiv preprint arXiv:2206.01729 (2022). [[paper]](https://arxiv.org/abs/2206.01729) [[code]](https://github.com/gcorso/torsional-diffusion) 
+
 - [TMLR 2022] [DMCG] Zhu, Jinhua, et al. "Direct molecular conformation generation." arXiv preprint arXiv:2202.01356 (2022). [[paper]](https://arxiv.org/abs/2202.01356) [[code]](https://github.com/DirectMolecularConfGen/DMCG) 
 
 - [NeurIPS 2021] [GeoMol] Ganea, Octavian, et al. "Geomol: Torsional geometric generation of molecular 3d conformer ensembles." Advances in Neural Information Processing Systems 34 (2021): 13757-13769. [[paper]](https://proceedings.neurips.cc/paper/2021/hash/725215ed82ab6306919b485b81ff9615-Abstract.html) [[code]](https://github.com/PattanaikL/GeoMol)
