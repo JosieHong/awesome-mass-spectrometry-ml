@@ -16,6 +16,8 @@ Because there are lots of graph-based models, we categorize them into supervised
 
 ### Self-Supervised Learning
 
+- [ICLR 2023 (spotlight)] [GNS TAT] Zaidi, Sheheryar, et al. "Pre-training via denoising for molecular property prediction." arXiv preprint arXiv:2206.00133 (2022). [[paper]](https://arxiv.org/abs/2206.00133) [[code]](https://github.com/shehzaidi/pre-training-via-denoising) 
+
 - [ICLR 2023] [GeoSSL-DDM] Liu, Shengchao, Hongyu Guo, and Jian Tang. "Molecular geometry pretraining with se (3)-invariant denoising distance matching." arXiv preprint arXiv:2206.13602 (2022). [[paper]](https://arxiv.org/abs/2206.13602) [[code]](https://github.com/chao1224/GeoSSL) 
 
 - [ICLR 2022] [GraphMVP] Liu, Shengchao, et al. "Pre-training molecular graph representation with 3d geometry." arXiv preprint arXiv:2110.07728 (2021). [[paper]](https://arxiv.org/abs/2110.07728) [[code]](https://github.com/chao1224/GraphMVP) 
@@ -30,7 +32,7 @@ Because there are lots of graph-based models, we categorize them into supervised
 
 ### Supervised Learning
 
-- [NeurIPS 2022] [ComENet] Wang, Limei, et al. "ComENet: Towards Complete and Efficient Message Passing for 3D Molecular Graphs." arXiv preprint arXiv:2206.08515 (2022). [[paper]](https://openreview.net/forum?id=mCzMqeWSFJ) [[code]](https://github.com/divelab/DIG/blob/b54e27e5660f0a8ba31dbc7d3f056f872b1f3e8e/dig/threedgraph/method/comenet/ocp/README.md) 
+- [NeurIPS 2022] [ComENet] Wang, Limei, et al. "ComENet: Towards Complete and Efficient Message Passing for 3D Molecular Graphs." arXiv preprint arXiv:2206.08515 (2022). [[paper]](https://openreview.net/forum?id=mCzMqeWSFJ) [[code (implemented in DIG library)]](https://github.com/divelab/DIG/blob/b54e27e5660f0a8ba31dbc7d3f056f872b1f3e8e/dig/threedgraph/method/comenet/ocp/README.md) 
 
 - [ICLR 2022] [GNS+Noisy Nodes] Godwin, Jonathan, et al. "Simple GNN regularisation for 3D molecular property prediction & beyond." arXiv preprint arXiv:2106.07971 (2021). [[paper]](https://arxiv.org/abs/2106.07971) [[codes]](https://github.com/Namkyeong/NoisyNodes_Pytorch)
 
