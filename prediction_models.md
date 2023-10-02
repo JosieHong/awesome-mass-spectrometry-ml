@@ -32,6 +32,8 @@ Because there are lots of graph-based models, we categorize them into supervised
 
 ### Supervised Learning
 
+- [AAAI 2023] [Molformer] Wu, Fang, Dragomir Radev, and Stan Z. Li. "Molformer: Motif-based transformer on 3d heterogeneous molecular graphs." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 37. No. 4. 2023. [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/25662) [[code]](https://github.com/smiles724/Molformer/tree/master)
+
 - [NeurIPS 2022] [ComENet] Wang, Limei, et al. "ComENet: Towards Complete and Efficient Message Passing for 3D Molecular Graphs." arXiv preprint arXiv:2206.08515 (2022). [[paper]](https://openreview.net/forum?id=mCzMqeWSFJ) [[code (implemented in DIG library)]](https://github.com/divelab/DIG/blob/b54e27e5660f0a8ba31dbc7d3f056f872b1f3e8e/dig/threedgraph/method/comenet/ocp/README.md) 
 
 - [ICLR 2022] [GNS+Noisy Nodes] Godwin, Jonathan, et al. "Simple GNN regularisation for 3D molecular property prediction & beyond." arXiv preprint arXiv:2106.07971 (2021). [[paper]](https://arxiv.org/abs/2106.07971) [[codes]](https://github.com/Namkyeong/NoisyNodes_Pytorch)

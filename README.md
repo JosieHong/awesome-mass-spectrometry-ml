@@ -22,7 +22,7 @@ The molecular representation learning or properties prediction models are catego
 |                                | # Paper | Note                       |
 |--------------------------------|---------|----------------------------|
 | Point-Based (or Quantum-Based) | 2       | 3D, No bonds are encoded   |
-| Graph-Based                    | 18      | 2D & 3D, Bonds are encoded |
+| Graph-Based                    | 19      | 2D & 3D, Bonds are encoded |
 | Sequence-Based                 | 1       | 1D                         |
 
 **Molecular generation** list is [[here]](./generative_models.md). 
