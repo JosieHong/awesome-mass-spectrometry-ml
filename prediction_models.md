@@ -16,6 +16,8 @@ Because there are lots of graph-based models, we categorize them into supervised
 
 ### Self-Supervised Learning
 
+- [ICLR 2023] [Mole-BERT] Xia, Jun, et al. "Mole-bert: Rethinking pre-training graph neural networks for molecules." The Eleventh International Conference on Learning Representations. 2022. [[paper]](https://openreview.net/forum?id=jevY-DtiZTR) [[code]](https://github.com/junxia97/Mole-BERT/tree/2feff8a33e3634b66b7408e2e2780fc9d960909f)
+
 - [ICLR 2023 (spotlight)] [GNS TAT] Zaidi, Sheheryar, et al. "Pre-training via denoising for molecular property prediction." arXiv preprint arXiv:2206.00133 (2022). [[paper]](https://arxiv.org/abs/2206.00133) [[code]](https://github.com/shehzaidi/pre-training-via-denoising) 
 
 - [ICLR 2023] [GeoSSL-DDM] Liu, Shengchao, Hongyu Guo, and Jian Tang. "Molecular geometry pretraining with se (3)-invariant denoising distance matching." arXiv preprint arXiv:2206.13602 (2022). [[paper]](https://arxiv.org/abs/2206.13602) [[code]](https://github.com/chao1224/GeoSSL) 
