@@ -16,13 +16,10 @@ Keep updating the deep learning papers and codes related to analytical chemistry
 ## Contents
 
 * [Small molecular representation](#small_molecular_representation)
-    * Point-based (or quantum-based) methods
-    * Graph-based methods
-    * Sequence-based methods
+    * [Point-based (or quantum-based) methods](#point-based-or-quantum-based-methods)
+    * [Graph-based methods](#graph-based-methods)
+    * [Sequence-based methods](#sequence-based-methods)
 * [Analytical chemistry-related properties prediction](#analytical_chem_prediction)
-    * MS/MS predicton
-    * Retetntion time prediction
-    * Collision cross section prediction
 * [Small molecular generation](#small_molecular_generation)
 * [Small molecular optimization](#small_molecular_optimization)
 
@@ -38,7 +35,7 @@ The molecular representation learning or properties prediction models are catego
 | Graph-Based                    | 20      | 2D & 3D, Bonds are encoded |
 | Sequence-Based                 | 1       | 1D                         |
 
-### Point-based (or quantum-based) methods 
+### Point-based (or quantum-based) methods
 
 - [ICLR 2023] Zhou, Gengmo, et al. "Uni-mol: A universal 3d molecular representation learning framework." (2023). [[paper]](https://chemrxiv.org/engage/chemrxiv/article-details/6402990d37e01856dc1d1581) [[code]](https://github.com/dptech-corp/Uni-Mol)
 - [PMLR 2021] [PaiNN] Schütt, Kristof, Oliver Unke, and Michael Gastegger. "Equivariant message passing for the prediction of tensorial properties and molecular spectra." International Conference on Machine Learning. PMLR, 2021. [[paper]](https://proceedings.mlr.press/v139/schutt21a.html?ref=https://githubhelp.com) [[code]](https://github.com/atomistic-machine-learning/schnetpack)
@@ -89,7 +86,20 @@ Because there are lots of graph-based models, we categorize them into supervised
 
 ## Analytical chemistry-related properties prediction <a id="analytical_chem_prediction"></a>
 
-Coming soon...
+**MS/MS predicton**
+
+- [Nat. Mach. Intell. 2023] Goldman, Samuel, et al. "Annotating metabolite mass spectra with domain-inspired chemical formula transformers." Nature Machine Intelligence 5.9 (2023): 965-979. [[paper]](https://www.nature.com/articles/s42256-023-00708-3) [[code]](https://github.com/samgoldman97/mist)
+- [arxiv 2023] Young, Adamo, Bo Wang, and Hannes Röst. "MassFormer: Tandem mass spectrum prediction with graph transformers." arXiv preprint arXiv:2111.04824 (2021). [[paper]](https://arxiv.org/abs/2111.04824) [[code]](https://github.com/Roestlab/massformer)
+- [NeurIPS 2023] Goldman, Samuel, et al. "Prefix-tree decoding for predicting mass spectra from molecules." arXiv preprint arXiv:2303.06470 (2023). [[paper]](https://arxiv.org/abs/2303.06470) [[code]](https://github.com/samgoldman97/ms-pred)
+- [Bioinformatics 2023] Hong, Yuhui, et al. "3DMolMS: prediction of tandem mass spectra from 3D molecular conformations." Bioinformatics 39.6 (2023): btad354. [[paper]](https://academic.oup.com/bioinformatics/article/39/6/btad354/7186501) [[code]](https://github.com/JosieHong/3DMolMS)
+- [Anal. Chem. 2021] Wang, Fei, et al. "CFM-ID 4.0: more accurate ESI-MS/MS spectral prediction and compound identification." Analytical chemistry 93.34 (2021): 11692-11700. [[paper]](https://pubs.acs.org/doi/full/10.1021/acs.analchem.1c01465) [[code]](https://hub.docker.com/r/wishartlab/cfmid)
+- [ACS Cent. Sci. 2019] Wei, Jennifer N., et al. "Rapid prediction of electron–ionization mass spectrometry using neural networks." ACS central science 5.4 (2019): 700-708. [[paper]](https://pubs.acs.org/doi/full/10.1021/acscentsci.9b00085) [[code]](https://github.com/brain-research/deep-molecular-massspec)
+
+**Retetntion time prediction**
+
+
+
+**Collision cross section prediction**
 
 
 
