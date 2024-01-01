@@ -12,14 +12,14 @@ Keep updating the awesome deep-learning papers and codes related to analytical c
 
 ## Contents
 
-* [Database](#database)
+* [Database](#databases)
 * [Papers](#papers)
     * [Small molecular representation](#small_molecular_representation)
         * [Point-based (or quantum-based) methods](#point-based-or-quantum-based-methods)
         * [Graph-based methods](#graph-based-methods)
         * [Sequence-based methods](#sequence-based-methods)
     * [Analytical chemistry-related properties prediction](#analytical_chem_prediction)
-        * [MS/MS prediction](#msms-predicton)
+        * [Tandem mass spectra prediction](#msms-predicton)
         * [Retention time prediction](#retetntion-time-prediction)
         * [Collision cross section prediction](#collision-cross-section-prediction)
     * [Small molecular generation](#small_molecular_generation)
@@ -95,7 +95,7 @@ According to the information embedded in the model, the molecular representation
 
 ### Analytical chemistry-related properties prediction <a id="analytical_chem_prediction"></a>
 
-**MS/MS predicton** <a id="msms-predicton"></a>
+**Tandem mass spectra prediction predicton** <a id="msms-predicton"></a>
 
 - [Nat. Mach. Intell. 2023] Goldman, Samuel, et al. "Annotating metabolite mass spectra with domain-inspired chemical formula transformers." Nature Machine Intelligence 5.9 (2023): 965-979. [[paper]](https://www.nature.com/articles/s42256-023-00708-3) [[code]](https://github.com/samgoldman97/mist)
 - [arxiv 2023] Young, Adamo, Bo Wang, and Hannes Röst. "MassFormer: Tandem mass spectrum prediction with graph transformers." arXiv preprint arXiv:2111.04824 (2021). [[paper]](https://arxiv.org/abs/2111.04824) [[code]](https://github.com/Roestlab/massformer)
@@ -106,9 +106,14 @@ According to the information embedded in the model, the molecular representation
 
 **Retetntion time prediction** <a id="retetntion-time-prediction"></a>
 
-
+- [Anal. Chem. 2021][GNN-RT] Yang, Qiong, et al. "Prediction of liquid chromatographic retention time with graph neural networks to assist in small molecule identification." Analytical Chemistry 93.4 (2021): 2200-2206. [[paper]](https://pubs.acs.org/doi/full/10.1021/acs.analchem.0c04071?casa_token=mO9pC4-KcigAAAAA%3AMyHrVQdgHbaj9-vV0X3r2YyL6tvEgn8KXSgsK8LRVUpnKRoyPwO620Rd9somu561yuI_sqJ7D61sxyz_) [[code]](https://github.com/Qiong-Yang/GNN-RT)
+- [Anal. Chem. 2020][Retip] Bonini, Paolo, et al. "Retip: retention time prediction for compound annotation in untargeted metabolomics." Analytical chemistry 92.11 (2020): 7515-7522. [[paper]](https://pubs.acs.org/doi/full/10.1021/acs.analchem.9b05765?casa_token=od9yhAcRC4YAAAAA%3Acw-9j5x9v0EspjnV3R29eVa0yX1y_jAzvldPofoim-_ryvZwJ1hZA1_4ijaEl5k1wFHYvJ-W-L4t6JiI) [[code]](https://www.retip.app/)
+- [Nat. Commun 2019] Domingo-Almenara, Xavier, et al. "The METLIN small molecule dataset for machine learning-based retention time prediction." Nature communications 10.1 (2019): 5811. [[paper]](https://www.nature.com/articles/s41467-019-13680-7) [[code]](https://figshare.com/articles/dataset/The_METLIN_small_molecule_dataset_for_machine_learning-based_retention_time_prediction/8038913) 
 
 **Collision cross section prediction** <a id="collision-cross-section-prediction"></a>
+
+- [Nat. Commun 2020][AllCCS] Zhou, Zhiwei, et al. "Ion mobility collision cross-section atlas for known and unknown metabolite annotation in untargeted metabolomics." Nature communications 11.1 (2020): 4334. [[paper]](https://www.nature.com/articles/s41467-020-18171-8) [[code]](https://github.com/ZhuMetLab/AllCCS)
+- [Anal. Chem. 2019][DeepCCS] Plante, Pier-Luc, et al. "Predicting ion mobility collision cross-sections using a deep neural network: DeepCCS." Analytical chemistry 91.8 (2019): 5191-5199. [[paper]](https://pubs.acs.org/doi/full/10.1021/acs.analchem.8b05821?casa_token=kUbfnZd1X7UAAAAA%3A5cfF6_3stVXfTgxMgmR8oeYXVNodkXKURjuZgzdHhXMyewwES3jYgNQbwhwEyl_7Xenag4Zpi4qA0PGA) [[code]](https://github.com/plpla/DeepCCS/) 
 
 
 

@@ -1,9 +1,5 @@
 # Contribution Guidelines
 
-Your contributions are always welcome!
-
-## Guidelines
-
 * Add a section if needed. If you do:
     * Add a section description.
     * Add the section title to the table of contents.
