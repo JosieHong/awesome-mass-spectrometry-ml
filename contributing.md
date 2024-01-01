@@ -8,7 +8,7 @@
     ```markdown
     1. Papers without any implementation codes are excluded from this list. 
     2. Format: 
-        - [conference/journal name year] [(optional) model name] First Author et al. ["title"]() [[code]]() 
+        - [conference/journal name year] [(optional) model name] First Author et al. [title]() [[code]]() 
     3. If there are no official codes but only unofficial implements, please note items by "😢 No official codes are available.". 
     ```
 * Check your spelling and grammar.
