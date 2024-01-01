@@ -1,51 +1,61 @@
-# Awesome Deep Learning Methods in Analytical Chemistry
+# Awesome Deep Learning in Analytical Chemistry
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Keep updating the deep learning papers and codes related to analytical chemistry. Contributes are always welcome!
+> Analytical chemistry studies and uses instruments and methods to separate, identify, and quantify matter. 
+> 
+> *from [Wikipedia](https://en.wikipedia.org/wiki/Analytical_chemistry)*
 
-```markdown
-1. Papers without any implementation codes are excluded from this list. 
-
-2. Format: 
-    - [conference/journal name year] [(optional) model name] <MLA cite> [[paper]]() [[code]]() 
-```
+Keep updating the awesome deep-learning papers and codes related to analytical chemistry. Please notice that awesome lists are curations of the best, not everything. [Contributes](contributing.md) are always welcome!
 
 
 
 ## Contents
 
-* [Small molecular representation](#small_molecular_representation)
-    * [Point-based (or quantum-based) methods](#point-based-or-quantum-based-methods)
-    * [Graph-based methods](#graph-based-methods)
-    * [Sequence-based methods](#sequence-based-methods)
-* [Analytical chemistry-related properties prediction](#analytical_chem_prediction)
-* [Small molecular generation](#small_molecular_generation)
-* [Small molecular optimization](#small_molecular_optimization)
+* [Database](#database)
+* [Papers](#papers)
+    * [Small molecular representation](#small_molecular_representation)
+        * [Point-based (or quantum-based) methods](#point-based-or-quantum-based-methods)
+        * [Graph-based methods](#graph-based-methods)
+        * [Sequence-based methods](#sequence-based-methods)
+    * [Analytical chemistry-related properties prediction](#analytical_chem_prediction)
+        * [MS/MS prediction](#msms-predicton)
+        * [Retention time prediction](#retetntion-time-prediction)
+        * [Collision cross section prediction](#collision-cross-section-prediction)
+    * [Small molecular generation](#small_molecular_generation)
+        * [RL-based generators](#rl_gen)
+        * [SL-based generator - molecular conformation](#sl_gen_conf)
+        * [UL-based & SSL-based generator - molecular graph](#ul_ssl_gen_graph)
+        * [UL-based & SSL-based generator - SMILES string](#ul_ssl_gen_smiles)
+    * [Small molecular optimization](#small_molecular_optimization)
 
 
 
-## Small molecular representation learning <a id="small_molecular_representation_learning"></a>
+## Databases
 
-The molecular representation learning or properties prediction models are categorized as point-based (or quantum-based) methods, graph-based methods, and sequence-based methods. Because the number of graph-based methods is huge, they are further divided into self-supervised learning and supervised learning manners. It is worth noting that the difference between point-based (or quantum-based) methods and graph-based methods is if bonds (i.e. edges) are included in the encoding. 
+* [QM9](https://www.nature.com/articles/sdata201422): This dataset includes the computed geometric, energetic, electronic, and thermodynamic properties of 134k stable small organic molecules composed of CHONF.
+* [GEOM](https://nature.com/articles/s41597-022-01288-4): This dataset features 37 million molecular conformations for over 450k molecules, generated using advanced sampling and semi-empirical density functional theory (DFT).
+* [SMRT](https://www.nature.com/articles/s41467-019-13680-7): This dataset presents an experimentally acquired reverse-phase chromatography retention time dataset covering up to 80,038 small molecules.
+* [RepoRT](https://chemrxiv.org/engage/chemrxiv/article-details/64a5a08c9ea64cc1677e120f): RepoRT currently contains 373 datasets, 8,809 unique compounds, and 88,325 retention time entries measured on 49 different chromatographic columns using various eluents, flow rates, and temperatures.
+* [AllCCS](https://www.nature.com/articles/s41467-020-18171-8): This collection includes more than 5,000 experimental CCS records and approximately 12 million calculated CCS values for over 1.6 million small molecules.
 
-|                                | # Paper | Note                       |
-|--------------------------------|---------|----------------------------|
-| Point-Based (or Quantum-Based) | 2       | 3D, No bonds are encoded   |
-| Graph-Based                    | 20      | 2D & 3D, Bonds are encoded |
-| Sequence-Based                 | 1       | 1D                         |
 
-### Point-based (or quantum-based) methods
+
+## Papers
+
+### Small molecular representation learning <a id="small_molecular_representation_learning"></a>
+
+According to the information embedded in the model, the molecular representation learning models are categorized as point-based (or quantum-based) methods, graph-based methods, and sequence-based methods. Because the number of graph-based methods is huge, they are further divided into self-supervised learning and supervised learning manners. It is worth noting that the difference between point-based (or quantum-based) methods and graph-based methods is if bonds (i.e. edges) are included in the encoding. 
+
+**Point-based (or quantum-based) methods** <a id="point-based-or-quantum-based-methods"></a>
 
 - [ICLR 2023] Zhou, Gengmo, et al. "Uni-mol: A universal 3d molecular representation learning framework." (2023). [[paper]](https://chemrxiv.org/engage/chemrxiv/article-details/6402990d37e01856dc1d1581) [[code]](https://github.com/dptech-corp/Uni-Mol)
 - [PMLR 2021] [PaiNN] Schütt, Kristof, Oliver Unke, and Michael Gastegger. "Equivariant message passing for the prediction of tensorial properties and molecular spectra." International Conference on Machine Learning. PMLR, 2021. [[paper]](https://proceedings.mlr.press/v139/schutt21a.html?ref=https://githubhelp.com) [[code]](https://github.com/atomistic-machine-learning/schnetpack)
 - [NeurIPS 2017] [SchNet] Schütt, Kristof, et al. "Schnet: A continuous-filter convolutional neural network for modeling quantum interactions." Advances in neural information processing systems 30 (2017). [[paper]](https://proceedings.neurips.cc/paper/2017/hash/303ed4c69846ab36c2904d3ba8573050-Abstract.html) [[code]](https://github.com/atomistic-machine-learning/SchNet)
 
-### Graph-based methods
+**Graph-based methods** <a id="graph-based-methods"></a>
 
-Because there are lots of graph-based models, we categorize them into supervised learning methods and self-supervised methods. 
-
-**Self-Supervised Learning**
+*Self-Supervised Learning:*
 
 - [Bioinformatics 2023] [3DGCL] Moon, Kisung, Hyeon-Jin Im, and Sunyoung Kwon. "3D graph contrastive learning for molecular property prediction." Bioinformatics 39.6 (2023): btad371. [[paper]](https://academic.oup.com/bioinformatics/article/39/6/btad371/7192173) [[code]](https://github.com/moonkisung/3DGCL)
 - [ICLR 2023] [Mole-BERT] Xia, Jun, et al. "Mole-bert: Rethinking pre-training graph neural networks for molecules." The Eleventh International Conference on Learning Representations. 2022. [[paper]](https://openreview.net/forum?id=jevY-DtiZTR) [[code]](https://github.com/junxia97/Mole-BERT/tree/2feff8a33e3634b66b7408e2e2780fc9d960909f)
@@ -56,7 +66,7 @@ Because there are lots of graph-based models, we categorize them into supervised
 - [NeurIPS 2020] [GROVER] Rong, Yu, et al. "Self-supervised graph transformer on large-scale molecular data." Advances in Neural Information Processing Systems 33 (2020): 12559-12571. [[paper]](https://proceedings.neurips.cc/paper/2020/hash/94aef38441efa3380a3bed3faf1f9d5d-Abstract.html) [[code]](https://github.com/tencent-ailab/grover)
 - [ICLR 2020] [InfoGraph] Sun, Fan-Yun, et al. "Infograph: Unsupervised and semi-supervised graph-level representation learning via mutual information maximization." arXiv preprint arXiv:1908.01000 (2019). [[paper]](https://arxiv.org/abs/1908.01000) [[code]](https://github.com/sunfanyunn/InfoGraph) 
 
-**Supervised Learning**
+*Supervised Learning*
 
 - [AAAI 2023] [Molformer] Wu, Fang, Dragomir Radev, and Stan Z. Li. "Molformer: Motif-based transformer on 3d heterogeneous molecular graphs." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 37. No. 4. 2023. [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/25662) [[code]](https://github.com/smiles724/Molformer/tree/master)
 - [NeurIPS 2022] [ComENet] Wang, Limei, et al. "ComENet: Towards Complete and Efficient Message Passing for 3D Molecular Graphs." arXiv preprint arXiv:2206.08515 (2022). [[paper]](https://openreview.net/forum?id=mCzMqeWSFJ) [[code (implemented in DIG library)]](https://github.com/divelab/DIG/blob/b54e27e5660f0a8ba31dbc7d3f056f872b1f3e8e/dig/threedgraph/method/comenet/ocp/README.md) 
@@ -64,7 +74,6 @@ Because there are lots of graph-based models, we categorize them into supervised
 - [ICLR 2022] [MolR] Wang, Hongwei, et al. "Chemical-reaction-aware molecule representation learning." arXiv preprint arXiv:2109.09888 (2021). [[paper]](https://arxiv.org/abs/2109.09888) [[code]](https://github.com/hwwang55/MolR) 
 - [ICLR 2022] [SphereNet] Liu, Yi, et al. "Spherical message passing for 3d graph networks." arXiv preprint arXiv:2102.05013 (2021). [[paper]](https://arxiv.org/abs/2102.05013) [[code (implemented in DIG library)]](https://github.com/divelab/DIG) 
 - [Nat. Mach. Intell. 2022] [GEM] Fang, Xiaomin, et al. "Geometry-enhanced molecular representation learning for property prediction." Nature Machine Intelligence 4.2 (2022): 127-134. [[paper]](https://www.nature.com/articles/s42256-021-00438-4.) [[code]](https://github.com/PaddlePaddle/PaddleHelix/tree/dev/apps/pretrained_compound/ChemRL/GEM) 
-- [Brief. Bioinformatics 2021] [TrimNet] Li, Pengyong, et al. "TrimNet: learning molecular representation from triplet messages for biomedicine." Briefings in Bioinformatics 22.4 (2021): bbaa266. [[paper]](https://academic.oup.com/bib/article-abstract/22/4/bbaa266/5955940) [[code]](https://github.com/yvquanli/TrimNet)
 - [NeurIPS 2021] [GemNet] Gasteiger, Johannes, Florian Becker, and Stephan Günnemann. "Gemnet: Universal directional graph neural networks for molecules." Advances in Neural Information Processing Systems 34 (2021): 6790-6802. [[paper]](https://proceedings.neurips.cc/paper/2021/hash/35cf8659cfcb13224cbd47863a34fc58-Abstract.html) [[code]](https://github.com/TUM-DAML/gemnet_pytorch)
 - [NeurIPS 2020] [DimeNet++] Klicpera, Johannes, et al. "Fast and uncertainty-aware directional message passing for non-equilibrium molecules." arXiv preprint arXiv:2011.14115 (2020). [[paper]](https://arxiv.org/abs/2011.14115) [[code]](https://github.com/gasteigerjo/dimenet)
 - [ICLR 2020] [DimeNet] Gasteiger, Johannes, Janek Groß, and Stephan Günnemann. "Directional message passing for molecular graphs." arXiv preprint arXiv:2003.03123 (2020). [[paper]](https://arxiv.org/abs/2003.03123) [[code]](https://github.com/gasteigerjo/dimenet)
@@ -72,21 +81,21 @@ Because there are lots of graph-based models, we categorize them into supervised
 - [PMLR 2017] Gilmer, Justin, et al. "Neural message passing for quantum chemistry." International conference on machine learning. PMLR, 2017. [[paper]](https://proceedings.mlr.press/v70/gilmer17a) [[code]](https://github.com/brain-research/mpnn) 
 - [NeurIPS 2015] [Neural Graph Fingerprints] Duvenaud, David K., et al. "Convolutional networks on graphs for learning molecular fingerprints." Advances in neural information processing systems 28 (2015). [[paper]](https://proceedings.neurips.cc/paper/2015/hash/f9be311e65d81a9ad8150a60844bb94c-Abstract.html) [[code]](https://github.com/HIPS/neural-fingerprint)
 
-**Other Related Works**
+*Other Related Works*
 
 - [NeurIPS 2020] You, Yuning, et al. "Graph contrastive learning with augmentations." Advances in neural information processing systems 33 (2020): 5812-5823. [[paper]](https://proceedings.neurips.cc/paper/2020/hash/3fe230348e9a12c13120749e3f9fa4cd-Abstract.html) [[code]](https://github.com/Shen-Lab/GraphCL) 
 - [ICLR 2020] Hu, Weihua, et al. "Strategies for pre-training graph neural networks." arXiv preprint arXiv:1905.12265 (2019). [[paper]](https://arxiv.org/abs/1905.12265) [[code]](https://github.com/snap-stanford/pretrain-gnns/) 
 
 
-### Sequence-based methods
+**Sequence-based methods** <a id="sequence-based-methods"></a>
 
 - [BCB 2019] [SMILES-BERT] Wang, Sheng, et al. "SMILES-BERT: large scale unsupervised pre-training for molecular property prediction." Proceedings of the 10th ACM international conference on bioinformatics, computational biology and health informatics. 2019. [[paper]](https://dl.acm.org/doi/abs/10.1145/3307339.3342186?casa_token=ROSIBxMX2UkAAAAA:q9M-DLpNJozQWqWEABwskuANeWuj8dPhU9ijopTfmnXJw3l7bjUuKEXI-br4yc4PG5cxVU5MT5Y) [[code]](https://github.com/uta-smile/SMILES-BERT)
 
 
 
-## Analytical chemistry-related properties prediction <a id="analytical_chem_prediction"></a>
+### Analytical chemistry-related properties prediction <a id="analytical_chem_prediction"></a>
 
-**MS/MS predicton**
+**MS/MS predicton** <a id="msms-predicton"></a>
 
 - [Nat. Mach. Intell. 2023] Goldman, Samuel, et al. "Annotating metabolite mass spectra with domain-inspired chemical formula transformers." Nature Machine Intelligence 5.9 (2023): 965-979. [[paper]](https://www.nature.com/articles/s42256-023-00708-3) [[code]](https://github.com/samgoldman97/mist)
 - [arxiv 2023] Young, Adamo, Bo Wang, and Hannes Röst. "MassFormer: Tandem mass spectrum prediction with graph transformers." arXiv preprint arXiv:2111.04824 (2021). [[paper]](https://arxiv.org/abs/2111.04824) [[code]](https://github.com/Roestlab/massformer)
@@ -95,31 +104,24 @@ Because there are lots of graph-based models, we categorize them into supervised
 - [Anal. Chem. 2021] Wang, Fei, et al. "CFM-ID 4.0: more accurate ESI-MS/MS spectral prediction and compound identification." Analytical chemistry 93.34 (2021): 11692-11700. [[paper]](https://pubs.acs.org/doi/full/10.1021/acs.analchem.1c01465) [[code]](https://hub.docker.com/r/wishartlab/cfmid)
 - [ACS Cent. Sci. 2019] Wei, Jennifer N., et al. "Rapid prediction of electron–ionization mass spectrometry using neural networks." ACS central science 5.4 (2019): 700-708. [[paper]](https://pubs.acs.org/doi/full/10.1021/acscentsci.9b00085) [[code]](https://github.com/brain-research/deep-molecular-massspec)
 
-**Retetntion time prediction**
+**Retetntion time prediction** <a id="retetntion-time-prediction"></a>
 
 
 
-**Collision cross section prediction**
+**Collision cross section prediction** <a id="collision-cross-section-prediction"></a>
 
 
 
-## Small molecular generation <a id="small_molecular_generation"></a>
+### Small molecular generation <a id="small_molecular_generation"></a>
 
 Based on the training strategies, deep molecular generative models can be classified into two categories: reinforcement learning (RL)-based methods, which generate molecules with desired properties; unsupervised (UL)-based or self-supervised (SSL)-based methods, which aim to generate valid, novel, and diverse molecules; supervised (SL)-based methods generating molecular three-dimensional conformations from molecular graphs. 
 
-|                                                         | # paper  |
-|---------------------------------------------------------|----------|
-| RL-Based Generator                                      | 2        |
-| SL-Based Generator - Molecular Conformation             | 10       |
-| UL-Based & SSL-Based Generator - Molecular Graph        | 11       |
-| UL-Based & SSL-Based Generator - SMILES String          | 6        |
-
-**RL-based generators**
+**RL-based generators** <a id="rl_gen"></a>
 
 - [NeurIPS 2018] [GCPN] You, Jiaxuan, et al. "Graph convolutional policy network for goal-directed molecular graph generation." Advances in neural information processing systems 31 (2018). [[paper]](https://proceedings.neurips.cc/paper/2018/hash/d60678e8f2ba9c540798ebbde31177e8-Abstract.html) [[code]](https://github.com/bowenliu16/rl_graph_generation) 
 - [Sci. Adv. 2018] [ReLeaSE] Popova, Mariya, Olexandr Isayev, and Alexander Tropsha. "Deep reinforcement learning for de novo drug design." Science advances 4.7 (2018): eaap7885. [[paper]](https://www.science.org/doi/10.1126/sciadv.aap7885) [[code]](https://github.com/isayev/ReLeaSE)
 
-**SL-based generator - molecular conformation**
+**SL-based generator - molecular conformation** <a id="sl_gen_conf"></a>
 
 - [ICLR 2022 (Oral)] [GeoDiff] Xu, Minkai, et al. "Geodiff: A geometric diffusion model for molecular conformation generation." arXiv preprint arXiv:2203.02923 (2022). [[paper]](https://openreview.net/forum?id=PzcvxEMzvQC) [[code]](https://github.com/MinkaiXu/GeoDiff) 
 - [NeurIPS 2022] [torsional diffusion] Jing, Bowen, et al. "Torsional diffusion for molecular conformer generation." arXiv preprint arXiv:2206.01729 (2022). [[paper]](https://arxiv.org/abs/2206.01729) [[code]](https://github.com/gcorso/torsional-diffusion) 
@@ -133,7 +135,7 @@ Based on the training strategies, deep molecular generative models can be classi
 - [ICML 2020] [GraphDG] Simm, Gregor NC, and José Miguel Hernández-Lobato. "A generative model for molecular distance geometry." arXiv preprint arXiv:1909.11459 (2019). [[paper]](https://arxiv.org/abs/1909.11459) [[code]](https://github.com/gncs/graphdg) 
 - [Sci. Rep. 2019] [CVGAE] Mansimov, Elman, et al. "Molecular geometry prediction using a deep generative graph neural network." Scientific reports 9.1 (2019): 20381. [[paper]](https://www.nature.com/articles/s41598-019-56773-5) [[code]](https://github.com/nyu-dl/dl4chem-geometry) 
 
-**UL-based & SSL-based generator - molecular graph**
+**UL-based & SSL-based generator - molecular graph** <a id="ul_ssl_gen_graph"></a>
 
 - [ICLR 2022 (Oral)] [DEG] Guo, Minghao, et al. "Data-efficient graph grammar learning for molecular generation." arXiv preprint arXiv:2203.08031 (2022). [[paper]](https://openreview.net/forum?id=l4IHywGq6a) [[code]](https://github.com/gmh14/data_efficient_grammar) 
 - [ICLR 2022 (Spotlight)] [STGG] Ahn, Sungsoo, et al. "Spanning tree-based graph generation for molecules." International Conference on Learning Representations. 2021. [[paper]](https://openreview.net/forum?id=w60btE_8T2m) 😢 No official codes are available. 
@@ -147,7 +149,7 @@ Based on the training strategies, deep molecular generative models can be classi
 - [ICML 2018] [JT-VAE] Jin, Wengong, Regina Barzilay, and Tommi Jaakkola. "Junction tree variational autoencoder for molecular graph generation." International conference on machine learning. PMLR, 2018. [[paper]](https://proceedings.mlr.press/v80/jin18a.html) [[code]](https://github.com/wengong-jin/icml18-jtnn)
 - [ICML 2018] [MolGAN] De Cao, Nicola, and Thomas Kipf. "MolGAN: An implicit generative model for small molecular graphs." arXiv preprint arXiv:1805.11973 (2018). [[paper]](https://arxiv.org/abs/1805.11973) [[code]](https://github.com/nicola-decao/MolGAN)
 
-**UL-based & SSL-based generator - SMILES string**
+**UL-based & SSL-based generator - SMILES string** <a id="ul_ssl_gen_smiles"></a>
 
 - [Chem. Sci. 2021] [STONED] Nigam, AkshatKumar, et al. "Beyond generative models: superfast traversal, optimization, novelty, exploration and discovery (STONED) algorithm for molecules using SELFIES." Chemical science 12.20 (2021): 7079-7090. [[paper]](https://pubs.rsc.org/en/content/articlehtml/2021/sc/d1sc00231g) [[code]](https://github.com/aspuru-guzik-group/stoned-selfies) 
 - [arXiv 2018] [ORGAN] Guimaraes, Gabriel Lima, et al. "Objective-reinforced generative adversarial networks (organ) for sequence generation models." arXiv preprint arXiv:1705.10843 (2017). [[paper]](https://arxiv.org/abs/1705.10843) [[code]](https://github.com/gablg1/ORGAN)
@@ -158,7 +160,7 @@ Based on the training strategies, deep molecular generative models can be classi
 
 
 
-## Small molecular optimization <a id="small_molecular_optimization"></a>
+### Small molecular optimization <a id="small_molecular_optimization"></a>
 
 While both molecular generation and optimization involve creating new molecules, generation is focused on creating entirely new molecules from scratch, while optimization is focused on improving the properties of existing molecules.
 
