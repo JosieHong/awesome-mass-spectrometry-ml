@@ -37,11 +37,14 @@ Keep updating the awesome deep-learning papers and codes related to analytical c
 
 ## Databases
 
-* [QM9](https://www.nature.com/articles/sdata201422): This dataset includes the computed geometric, energetic, electronic, and thermodynamic properties of 134k stable small organic molecules composed of CHONF.
-* [GEOM](https://nature.com/articles/s41597-022-01288-4): This dataset features 37 million molecular conformations for over 450k molecules, generated using advanced sampling and semi-empirical density functional theory (DFT).
-* [SMRT](https://www.nature.com/articles/s41467-019-13680-7): This dataset presents an experimentally acquired reverse-phase chromatography retention time dataset covering up to 80,038 small molecules.
-* [RepoRT](https://chemrxiv.org/engage/chemrxiv/article-details/64a5a08c9ea64cc1677e120f): RepoRT currently contains 373 datasets, 8,809 unique compounds, and 88,325 retention time entries measured on 49 different chromatographic columns using various eluents, flow rates, and temperatures.
-* [AllCCS](https://www.nature.com/articles/s41467-020-18171-8): This collection includes more than 5,000 experimental CCS records and approximately 12 million calculated CCS values for over 1.6 million small molecules.
+- [QM9](https://www.nature.com/articles/sdata201422): This dataset includes the computed geometric, energetic, electronic, and thermodynamic properties of 134,000 stable small organic molecules composed of CHONF.
+- [GEOM](https://nature.com/articles/s41597-022-01288-4): This dataset features 37 million molecular conformations for over 450,000 molecules, generated using advanced sampling and semi-empirical density functional theory (DFT).
+- [NIST23](https://www.sisweb.com/software/nist-msms.htm): The NIST MS/MS Library 2023 is a collection of MS/MS spectra and search software. It contains 2,374,064 MS/MS spectra from 399,267 small molecules.
+- [MoNA](https://mona.fiehnlab.ucdavis.edu/): MoNA currently contains 2,061,612 mass spectral records from experimental and in-silico libraries, as well as from user contributions.
+- [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp): GNPS is a web-based mass spectrometry ecosystem that aims to be an open-access knowledge base for the community-wide organization and sharing of raw, processed, or annotated fragmentation mass spectrometry data (MS/MS).
+- [SMRT](https://www.nature.com/articles/s41467-019-13680-7): This dataset presents an experimentally acquired reverse-phase chromatography retention time dataset, covering up to 80,038 small molecules.
+- [RepoRT](https://chemrxiv.org/engage/chemrxiv/article-details/64a5a08c9ea64cc1677e120f): RepoRT currently contains 373 datasets, 8,809 unique compounds, and 88,325 retention time entries measured on 49 different chromatographic columns using various eluents, flow rates, and temperatures.
+- [AllCCS](https://www.nature.com/articles/s41467-020-18171-8): This collection includes more than 5,000 experimental CCS records and approximately 12 million calculated CCS values for over 1.6 million small molecules.
 
 
 
