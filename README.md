@@ -18,6 +18,7 @@ Keep updating the awesome deep-learning papers and codes related to analytical c
 * [Papers](#papers)
     * [Survey papers](#survey-papers)
     * [Small molecular representation](#small-molecular-representation-learning)
+        * [Discussions in pre-train models](#discussion-in-pretrain-models)
         * [Point-based (or quantum-based) methods](#point-based-or-quantum-based-methods)
         * [Graph-based methods](#graph-based-methods)
         * [Sequence-based methods](#sequence-based-methods)
@@ -53,10 +54,16 @@ Keep updating the awesome deep-learning papers and codes related to analytical c
 ### Survey papers
 
 - [TrAC 2021] Debus, Bruno, et al. [Deep learning in analytical chemistry](https://www.sciencedirect.com/science/article/pii/S016599362100282X?casa_token=f08kOPFgTDgAAAAA:AAbouNgCvOuFF23E38NFx8zzJ_0LGcCOVK5LrdzkdH5LzX4xHKcFALgD1Ckxg2Q8vZ8H78zNZW8)
+- [IJCAI 2023] Xia, Jun, et al. [A Systematic Survey of Chemical Pre-trained Models](https://www.ijcai.org/proceedings/2023/760)
 
 ### Small molecular representation learning
 
 According to the information embedded in the model, the molecular representation learning models are categorized as point-based (or quantum-based) methods, graph-based methods, and sequence-based methods. Because the number of graph-based methods is huge, they are further divided into self-supervised learning and supervised learning manners. It is worth noting that the difference between point-based (or quantum-based) methods and graph-based methods is if bonds (i.e. edges) are included in the encoding. 
+
+**Discussions in pre-train models** <a id="discussion-in-pretrain-models"></a>
+
+- [JCIM 2023] Zhang, Ziqiao, et al. [Can Pre-trained Models Really Learn Better Molecular Representations for AI-aided Drug Discovery?](https://pubs.acs.org/doi/10.1021/acs.jcim.3c01707)
+- [NeurIPS 2022] Sun, Ruoxi, et al. [Does GNN Pretraining Help Molecular Representation?](https://proceedings.neurips.cc/paper_files/paper/2022/hash/4ec360efb3f52643ac43fda570ec0118-Abstract-Conference.html)
 
 **Point-based (or quantum-based) methods** <a id="point-based-or-quantum-based-methods"></a>
 
@@ -190,3 +197,4 @@ While both molecular generation and optimization involve creating new molecules,
 - [Awesome Cheminformatics](https://github.com/hsiaoyi0504/awesome-cheminformatics): This repository concentrates on computer-based methods in chemistry.
 - [Awesome Python Chemistry](https://github.com/lmmentel/awesome-python-chemistry): This repository is dedicated to Python-based frameworks, libraries, software, and resources in the field of Chemistry.
 - [Awesome DeepBio](https://github.com/gokceneraslan/awesome-deepbio) & [deeplearning-biology](https://github.com/hussius/deeplearning-biology): These repositories focus on deep learning methods in biology.
+- [awesome-pretrain-on-molecules](https://github.com/junxia97/awesome-pretrain-on-molecules)
