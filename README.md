@@ -38,11 +38,14 @@ Keep updating the awesome deep-learning papers and codes related to analytical c
 
 ## Databases
 
-**Quantum properties**: 
+**(Quantum-related) molecular properties**: 
 
+- [OC20 & OC22](https://opencatalystproject.org/): The Open Catalyst Project focuses on using AI to find new renewable energy storage catalysts, releasing the OC20 and OC22 datasets with 1.3 million molecular relaxations from 260 million DFT calculations for research support. 
 - [QM9](https://www.nature.com/articles/sdata201422): This dataset includes the computed geometric, energetic, electronic, and thermodynamic properties of 134,000 stable small organic molecules composed of CHONF.
 - [GEOM](https://nature.com/articles/s41597-022-01288-4): This dataset features 37 million molecular conformations for over 450,000 molecules, generated using advanced sampling and semi-empirical density functional theory (DFT).
 - [MD17 & MD22](http://www.sgdml.org/): The MD22 benchmark dataset includes molecular dynamics trajectories of seven biomolecular and supramolecular systems, with atom counts ranging from 42 to 370, sampled at 400-500 K with 1 fs resolution, and energy and forces calculated using PBE+MBD theory. 
+- [PCQM4Mv2](https://ogb.stanford.edu/docs/lsc/pcqm4mv2/): PCQM4Mv2 is a quantum chemistry dataset derived from the PubChemQC project, focusing on the ML task of predicting DFT-calculated HOMO-LUMO energy gaps of molecules using their 2D graphs, a significant task due to the expense of obtaining 3D equilibrium structures. 
+- [MoleculeNet](https://moleculenet.org/): MoleculeNet is a benchmark for testing machine learning methods on molecular properties, featuring over 700,000 compounds from multiple databases, integrated into the DeepChem package, and evaluates model performances using metrics like AUC-ROC, AUC-PRC, RMSE, and MAE. 
 
 **MS/MS**: 
 
