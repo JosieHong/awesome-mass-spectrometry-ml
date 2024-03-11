@@ -122,6 +122,7 @@ According to the information embedded in the model, the molecular representation
 
 **Sequence-based methods** <a id="sequence-based-methods"></a>
 
+- [Nat. Mach. Intell. 2022] [MolFormer] Ross, Jerret, et al. [Large-scale chemical language representations capture molecular structure and properties](https://www.nature.com/articles/s42256-022-00580-7) [\[code\]](https://github.com/IBM/molformer)
 - [BCB 2019] [SMILES-BERT] Wang, Sheng, et al. [SMILES-BERT: large scale unsupervised pre-training for molecular property prediction](https://dl.acm.org/doi/abs/10.1145/3307339.3342186?casa_token=ROSIBxMX2UkAAAAA:q9M-DLpNJozQWqWEABwskuANeWuj8dPhU9ijopTfmnXJw3l7bjUuKEXI-br4yc4PG5cxVU5MT5Y) [\[code\]](https://github.com/uta-smile/SMILES-BERT)
 
 
@@ -155,6 +156,8 @@ According to the information embedded in the model, the molecular representation
 ### Small molecular generation <a id="small_molecular_generation"></a>
 
 Based on the training strategies, deep molecular generative models can be classified into two categories: reinforcement learning (RL)-based methods, which generate molecules with desired properties; unsupervised (UL)-based or self-supervised (SSL)-based methods, which aim to generate valid, novel, and diverse molecules; supervised (SL)-based methods generating molecular three-dimensional conformations from molecular graphs. 
+
+- [Front. Pharmacol. 2020] [MOSES] Daniil, Polykovskiy, et al. [Molecular Sets (MOSES): A Benchmarking Platform for Molecular Generation Models](https://www.frontiersin.org/articles/10.3389/fphar.2020.565644/full)
 
 **RL-based generators** <a id="rl_gen"></a>
 
