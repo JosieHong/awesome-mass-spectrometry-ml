@@ -22,11 +22,11 @@ Keep updating the awesome machine-learning papers and codes related to small mol
         * [Point-based (or quantum-based) methods](#point-based-or-quantum-based-methods)
         * [Graph-based methods](#graph-based-methods)
         * [Sequence-based methods](#sequence-based-methods)
-    * [Mass spectrometry-related properties prediction](#analytical_chem_prediction)
+    * [Mass spectrometry-related properties prediction](#ms_prop_prediction)
         * [Tandem mass spectra prediction](#msms-predicton)
         * [Retention time prediction](#retetntion-time-prediction)
         * [Collision cross section prediction](#collision-cross-section-prediction)
-    * [Machine learning for quantitative analysis](#machine-learning-for-quantitative-analysis)
+    * [Small molecules identification](#small-molecules-identification)
 * [Related awesome lists](#related-awesome-lists)
 
 
@@ -65,6 +65,7 @@ Keep updating the awesome machine-learning papers and codes related to small mol
 
 - [TrAC 2021] Debus, Bruno, et al. [Deep learning in analytical chemistry](https://www.sciencedirect.com/science/article/pii/S016599362100282X?casa_token=f08kOPFgTDgAAAAA:AAbouNgCvOuFF23E38NFx8zzJ_0LGcCOVK5LrdzkdH5LzX4xHKcFALgD1Ckxg2Q8vZ8H78zNZW8)
 - [IJCAI 2023] Xia, Jun, et al. [A Systematic Survey of Chemical Pre-trained Models](https://www.ijcai.org/proceedings/2023/760)
+- [J. Cheminform. 2013] Scheubert, Kerstin, et al. [Computational mass spectrometry for small molecules](https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-5-12)
 
 ### Small molecular representation learning
 
@@ -122,7 +123,7 @@ According to the information embedded in the model, the molecular representation
 
 
 
-### Analytical chemistry-related properties prediction <a id="analytical_chem_prediction"></a>
+### Mass spectrometry-related properties prediction <a id="ms_prop_prediction"></a>
 
 **Tandem mass spectra prediction predicton** <a id="msms-predicton"></a>
 
@@ -146,10 +147,11 @@ According to the information embedded in the model, the molecular representation
 - [Nat. Commun 2020] [AllCCS] Zhou, Zhiwei, et al. [Ion mobility collision cross-section atlas for known and unknown metabolite annotation in untargeted metabolomics](https://www.nature.com/articles/s41467-020-18171-8) [\[code\]](https://github.com/ZhuMetLab/AllCCS)
 - [Anal. Chem. 2019] [DeepCCS] Plante, Pier-Luc, et al. [Predicting ion mobility collision cross-sections using a deep neural network: DeepCCS](https://pubs.acs.org/doi/full/10.1021/acs.analchem.8b05821?casa_token=kUbfnZd1X7UAAAAA%3A5cfF6_3stVXfTgxMgmR8oeYXVNodkXKURjuZgzdHhXMyewwES3jYgNQbwhwEyl_7Xenag4Zpi4qA0PGA) [\[code\]](https://github.com/plpla/DeepCCS/)
 
+### Small molecules identification
 
-### Machine learning for quantitative analysis
+- [Nat. Methods 2023] [BUDDY] Xing, Shipei, et al. [BUDDY: molecular formula discovery via bottom-up MS/MS interrogation](https://www.nature.com/articles/s41592-023-01850-x) [\[code1\]](https://github.com/Philipbear/msbuddy) [\[code2\]](https://github.com/Philipbear/BUDDY_Metabolomics) 
+- [Nat. Methods 2019] [SIRIUS 4] Dührkop, Kai, et al. [SIRIUS 4: a rapid tool for turning tandem mass spectra into metabolite structure information](https://www.nature.com/articles/s41592-019-0344-8) [\[code\]](https://github.com/boecker-lab/sirius)
 
-- [Analytica chimica acta 2019] [DeepSpectra] Zhang, Xiaolei, et al. [DeepSpectra: An end-to-end deep learning approach for quantitative spectral analysis](https://www.sciencedirect.com/science/article/pii/S0003267019300169?casa_token=7r-4ZEoy9LwAAAAA:9yl2zrTwXjG7L4zqomniU6itpifzKutxsXqlgJWwtG9-OtNYbMfoLWf9l12jkhuXdMRlbZwDqbI)
 
 
 ## Related awesome lists
