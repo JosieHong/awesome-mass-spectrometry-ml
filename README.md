@@ -163,7 +163,8 @@ According to the information embedded in the model, the molecular representation
 
 > Mass spectrometry is often coupled with chromatographic techniques, such as GC-MS (gas chromatography-mass spectrometry) or LC-MS (liquid chromatography-mass spectrometry). In these combined techniques, the chromatographic method separates the compounds, and then the mass spectrometer analyzes each separated compound for identification and quantification.
 
-- [Anal. Chem. 2024] Hong, Yuhui, et al. [Enhanced Structure-Based Prediction of Chiral Stationary Phases for Chromatographic Enantioseparation from 3D Molecular Conformations](https://pubs.acs.org/doi/full/10.1021/acs.analchem.3c04028) [\[code\]](https://github.com/JosieHong/3DMolCSP)
+- [Anal. Chem. 2024] [3DMolCSP] Hong, Yuhui, et al. [Enhanced Structure-Based Prediction of Chiral Stationary Phases for Chromatographic Enantioseparation from 3D Molecular Conformations](https://pubs.acs.org/doi/full/10.1021/acs.analchem.3c04028) [\[code\]](https://github.com/JosieHong/3DMolCSP)
+- [Nat. Commun 2023] [QGeoGNN] Xu, Hao, et al. [Retention time prediction for chromatographic enantioseparation by quantile geometry-enhanced graph neural network](https://www.nature.com/articles/s41467-023-38853-3) [\[code\]](https://github.com/woshixuhao/Retention-Time-Prediction-for-Chromatographic-Enantioseparation/tree/main/code)
 - [J. Sep. Sci. 2018] Piras, Patrick, et al. [Modeling and predicting chiral stationary phase enantioselectivity: An efficient random forest classifier using an optimally balanced training dataset and an aggregation strategy](https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/full/10.1002/jssc.201701334)
 - [J. Chromatogr. A 2016] Sheridan, Robert, et al. [Toward structure-based predictive tools for the selection of chiral stationary phases for the chromatographic separation of enantiomers](https://www.sciencedirect.com/science/article/pii/S0021967316306732) 
 
