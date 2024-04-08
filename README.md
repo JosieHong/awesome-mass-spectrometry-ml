@@ -27,6 +27,7 @@ Keep updating the awesome machine-learning papers and codes related to small mol
         * [Retention time prediction](#retetntion-time-prediction)
         * [Collision cross section prediction](#collision-cross-section-prediction)
     * [Small molecules identification](#small-molecules-identification)
+* [Machine learning in small molecules chromatography](#machine-learning-in-small-molecules-chromatography)
 * [Related awesome lists](#related-awesome-lists)
 
 
@@ -155,6 +156,16 @@ According to the information embedded in the model, the molecular representation
 - [JCIM 2023] Goldman, Samuel, et al. [MIST-CF: Chemical formula inference from tandem mass spectra](https://pubs.acs.org/doi/full/10.1021/acs.jcim.3c01082) [\[code\]](https://github.com/samgoldman97/mist-cf)
 - [Nat. Methods 2023] [BUDDY] Xing, Shipei, et al. [BUDDY: molecular formula discovery via bottom-up MS/MS interrogation](https://www.nature.com/articles/s41592-023-01850-x) [\[code1\]](https://github.com/Philipbear/msbuddy) [\[code2\]](https://github.com/Philipbear/BUDDY_Metabolomics) 
 - [Nat. Methods 2019] [SIRIUS 4] Dührkop, Kai, et al. [SIRIUS 4: a rapid tool for turning tandem mass spectra into metabolite structure information](https://www.nature.com/articles/s41592-019-0344-8) [\[code\]](https://github.com/boecker-lab/sirius)
+
+
+
+## Machine learning in small molecules chromatography
+
+> Mass spectrometry is often coupled with chromatographic techniques, such as GC-MS (gas chromatography-mass spectrometry) or LC-MS (liquid chromatography-mass spectrometry). In these combined techniques, the chromatographic method separates the compounds, and then the mass spectrometer analyzes each separated compound for identification and quantification.
+
+- [Anal. Chem. 2024] Hong, Yuhui, et al. [Enhanced Structure-Based Prediction of Chiral Stationary Phases for Chromatographic Enantioseparation from 3D Molecular Conformations](https://pubs.acs.org/doi/full/10.1021/acs.analchem.3c04028) [\[code\]](https://github.com/JosieHong/3DMolCSP)
+- [J. Sep. Sci. 2018] Piras, Patrick, et al. [Modeling and predicting chiral stationary phase enantioselectivity: An efficient random forest classifier using an optimally balanced training dataset and an aggregation strategy](https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/full/10.1002/jssc.201701334)
+- [J. Chromatogr. A 2016] Sheridan, Robert, et al. [Toward structure-based predictive tools for the selection of chiral stationary phases for the chromatographic separation of enantiomers](https://www.sciencedirect.com/science/article/pii/S0021967316306732) 
 
 
 
