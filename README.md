@@ -26,9 +26,8 @@ Keep updating the awesome machine-learning papers and codes related to small mol
         * [Tandem mass spectra prediction](#msms-predicton)
         * [Retention time prediction](#retetntion-time-prediction)
         * [Collision cross section prediction](#collision-cross-section-prediction)
-    * [Mass spectra representation learning](#mass-spectra-representation-learning)
+    * [Mass spectra representation learning and matching](#mass-spectra-representation-learning-and-matching)
     * [Chemical formula prediction from mass spectra](#chemical-formula-prediction-from-mass-spectra)
-    * [Mass spectra matching](#mass-spectra-matching)
 * [Machine learning in small molecules chromatography](#machine-learning-in-small-molecules-chromatography)
 * [Related awesome lists](#related-awesome-lists)
 
@@ -121,6 +120,7 @@ According to the information embedded in the model, the molecular representation
 
 **Sequence-based methods** <a id="sequence-based-methods"></a>
 
+- [Patterns 2022] [SELFIES] Krenn, Mario, et al. [SELFIES and the future of molecular string representations](https://www.sciencedirect.com/science/article/pii/S2666389922002069) [\[code\]](https://github.com/aspuru-guzik-group/selfies)
 - [Nat. Mach. Intell. 2022] [MolFormer] Ross, Jerret, et al. [Large-scale chemical language representations capture molecular structure and properties](https://www.nature.com/articles/s42256-022-00580-7) [\[code\]](https://github.com/IBM/molformer)
 - [BCB 2019] [SMILES-BERT] Wang, Sheng, et al. [SMILES-BERT: large scale unsupervised pre-training for molecular property prediction](https://dl.acm.org/doi/abs/10.1145/3307339.3342186?casa_token=ROSIBxMX2UkAAAAA:q9M-DLpNJozQWqWEABwskuANeWuj8dPhU9ijopTfmnXJw3l7bjUuKEXI-br4yc4PG5cxVU5MT5Y) [\[code\]](https://github.com/uta-smile/SMILES-BERT)
 
@@ -153,12 +153,9 @@ According to the information embedded in the model, the molecular representation
 - [Nat. Commun 2020] [AllCCS] Zhou, Zhiwei, et al. [Ion mobility collision cross-section atlas for known and unknown metabolite annotation in untargeted metabolomics](https://www.nature.com/articles/s41467-020-18171-8) [\[code\]](https://github.com/ZhuMetLab/AllCCS)
 - [Anal. Chem. 2019] [DeepCCS] Plante, Pier-Luc, et al. [Predicting ion mobility collision cross-sections using a deep neural network: DeepCCS](https://pubs.acs.org/doi/full/10.1021/acs.analchem.8b05821?casa_token=kUbfnZd1X7UAAAAA%3A5cfF6_3stVXfTgxMgmR8oeYXVNodkXKURjuZgzdHhXMyewwES3jYgNQbwhwEyl_7Xenag4Zpi4qA0PGA) [\[code\]](https://github.com/plpla/DeepCCS/)
 
-### Mass spectra representation learning
+### Mass spectra representation learning and matching
 
 - [Anal. Chem. 2023] [CLERMS] Guo, Hao, et al. [Contrastive learning-based embedder for the representation of tandem mass spectra](https://pubs.acs.org/doi/abs/10.1021/acs.analchem.3c00260) [\[code\]](https://github.com/HaldamirS/CLERMS)
-
-### Mass spectra matching
-
 - [Nat. Commun 2023] [FastEI] Yang, Qiong, et al. [Ultra-fast and accurate electron ionization mass spectrum matching for compound identification with million-scale in-silico library](https://www.nature.com/articles/s41467-023-39279-7) [\[code\]](https://github.com/Qiong-Yang/FastEI)
 - [PLoS Comput. Biol. 2021] Huber, Florian, et al. [Spec2Vec: Improved mass spectral similarity scoring through learning of structural relationships](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008724) [\[code\]](https://github.com/iomega/spec2vec) 
 - [J. Cheminform. 2021] Huber, Florian, et al. [MS2DeepScore: a novel deep learning similarity measure to compare tandem mass spectra](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00558-4) [\[code\]](https://github.com/matchms/ms2deepscore)
