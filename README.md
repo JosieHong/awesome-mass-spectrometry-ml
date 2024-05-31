@@ -65,7 +65,7 @@ Keep updating the awesome machine-learning papers and codes related to small mol
 
 ### Survey papers
 
-- [TrAC 2021] Debus, Bruno, et al. [Deep learning in analytical chemistry](https://www.sciencedirect.com/science/article/pii/S016599362100282X?casa_token=f08kOPFgTDgAAAAA:AAbouNgCvOuFF23E38NFx8zzJ_0LGcCOVK5LrdzkdH5LzX4xHKcFALgD1Ckxg2Q8vZ8H78zNZW8)
+- [TrAC 2021] Debus, Bruno, et al. [Deep learning in analytical chemistry](https://www.sciencedirect.com/science/article/pii/S016599362100282X)
 - [IJCAI 2023] Xia, Jun, et al. [A Systematic Survey of Chemical Pre-trained Models](https://www.ijcai.org/proceedings/2023/760)
 - [J. Cheminform. 2013] Scheubert, Kerstin, et al. [Computational mass spectrometry for small molecules](https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-5-12)
 
@@ -109,7 +109,7 @@ According to the information embedded in the model, the molecular representation
 - [NeurIPS 2021] [GemNet] Gasteiger, Johannes, et al. [Gemnet: Universal directional graph neural networks for molecules](https://proceedings.neurips.cc/paper/2021/hash/35cf8659cfcb13224cbd47863a34fc58-Abstract.html) [\[code\]](https://github.com/TUM-DAML/gemnet_pytorch)
 - [NeurIPS 2020] [DimeNet++] Klicpera, Johannes, et al. [Fast and uncertainty-aware directional message passing for non-equilibrium molecules](https://arxiv.org/abs/2011.14115) [\[code\]](https://github.com/gasteigerjo/dimenet)
 - [ICLR 2020] [DimeNet] Gasteiger, Johannes, et al. [Directional message passing for molecular graphs](https://arxiv.org/abs/2003.03123) [\[code\]](https://github.com/gasteigerjo/dimenet)
-- [Chem. Mater 2019] [MEGNet] Chen, Chi, et al. [Graph networks as a universal machine learning framework for molecules and crystals](https://pubs.acs.org/doi/full/10.1021/acs.chemmater.9b01294?casa_token=Qt91hGc97ywAAAAA%3A_uRAvtFkZVg-YHOeSw1mgP5K-pHBPqUpErJFugRveatjcHKJzcsoQACGsBbIxXJ0CFrY2Ug2jnXgcA) [\[preprint\]](https://arxiv.org/abs/1812.05055) [\[code\]](https://github.com/materialsvirtuallab/megnet)
+- [Chem. Mater 2019] [MEGNet] Chen, Chi, et al. [Graph networks as a universal machine learning framework for molecules and crystals](https://pubs.acs.org/doi/full/10.1021/acs.chemmater.9b01294) [\[preprint\]](https://arxiv.org/abs/1812.05055) [\[code\]](https://github.com/materialsvirtuallab/megnet)
 - [PMLR 2017] Gilmer, Justin, et al. [Neural message passing for quantum chemistry](https://proceedings.mlr.press/v70/gilmer17a) [\[code\]](https://github.com/brain-research/mpnn)
 - [NeurIPS 2015] [Neural FPs] Duvenaud, David K., et al. [Convolutional networks on graphs for learning molecular fingerprints](https://proceedings.neurips.cc/paper/2015/hash/f9be311e65d81a9ad8150a60844bb94c-Abstract.html) [\[code\]](https://github.com/HIPS/neural-fingerprint)
 
@@ -122,7 +122,7 @@ According to the information embedded in the model, the molecular representation
 
 - [Patterns 2022] [SELFIES] Krenn, Mario, et al. [SELFIES and the future of molecular string representations](https://www.sciencedirect.com/science/article/pii/S2666389922002069) [\[code\]](https://github.com/aspuru-guzik-group/selfies)
 - [Nat. Mach. Intell. 2022] [MolFormer] Ross, Jerret, et al. [Large-scale chemical language representations capture molecular structure and properties](https://www.nature.com/articles/s42256-022-00580-7) [\[code\]](https://github.com/IBM/molformer)
-- [BCB 2019] [SMILES-BERT] Wang, Sheng, et al. [SMILES-BERT: large scale unsupervised pre-training for molecular property prediction](https://dl.acm.org/doi/abs/10.1145/3307339.3342186?casa_token=ROSIBxMX2UkAAAAA:q9M-DLpNJozQWqWEABwskuANeWuj8dPhU9ijopTfmnXJw3l7bjUuKEXI-br4yc4PG5cxVU5MT5Y) [\[code\]](https://github.com/uta-smile/SMILES-BERT)
+- [BCB 2019] [SMILES-BERT] Wang, Sheng, et al. [SMILES-BERT: large scale unsupervised pre-training for molecular property prediction](https://dl.acm.org/doi/abs/10.1145/3307339.3342186) [\[code\]](https://github.com/uta-smile/SMILES-BERT)
 
 
 
@@ -142,16 +142,17 @@ According to the information embedded in the model, the molecular representation
 
 - [Bioinformatics 2024] [RT-Transformer] Xue, Jun, et al. [RT-Transformer: Retention time prediction for metabolite annotation to assist in metabolite identification](https://academic.oup.com/bioinformatics/article/40/3/btae084/7613958) [\[code\]](https://github.com/01dadada/RT-Transformer)
 - [J. Chromatogr. A 2023] [DeepGCN-RT] Kang, Qiyue, et al. [Deep graph convolutional network for small-molecule retention time prediction](https://www.sciencedirect.com/science/article/pii/S0021967323006647) [\[code\]](https://github.com/kangqiyue/DeepGCN-RT)
-- [Anal. Chem. 2021] [GNN-RT] Yang, Qiong, et al. [Prediction of liquid chromatographic retention time with graph neural networks to assist in small molecule identification](https://pubs.acs.org/doi/full/10.1021/acs.analchem.0c04071?casa_token=mO9pC4-KcigAAAAA%3AMyHrVQdgHbaj9-vV0X3r2YyL6tvEgn8KXSgsK8LRVUpnKRoyPwO620Rd9somu561yuI_sqJ7D61sxyz_) [\[code\]](https://github.com/Qiong-Yang/GNN-RT)
-- [Anal. Chem. 2020] [Retip] Bonini, Paolo, et al. [Retip: retention time prediction for compound annotation in untargeted metabolomics](https://pubs.acs.org/doi/full/10.1021/acs.analchem.9b05765?casa_token=od9yhAcRC4YAAAAA%3Acw-9j5x9v0EspjnV3R29eVa0yX1y_jAzvldPofoim-_ryvZwJ1hZA1_4ijaEl5k1wFHYvJ-W-L4t6JiI) [\[code\]](https://www.retip.app/)
+- [Anal. Chem. 2021] [GNN-RT] Yang, Qiong, et al. [Prediction of liquid chromatographic retention time with graph neural networks to assist in small molecule identification](https://pubs.acs.org/doi/full/10.1021/acs.analchem.0c04071) [\[code\]](https://github.com/Qiong-Yang/GNN-RT)
+- [Anal. Chem. 2020] [Retip] Bonini, Paolo, et al. [Retip: retention time prediction for compound annotation in untargeted metabolomics](https://pubs.acs.org/doi/full/10.1021/acs.analchem.9b05765) [\[code\]](https://www.retip.app/)
 - [Nat. Commun 2019] Domingo-Almenara, Xavier, et al. [The METLIN small molecule dataset for machine learning-based retention time prediction](https://www.nature.com/articles/s41467-019-13680-7) [\[code\]](https://figshare.com/articles/dataset/The_METLIN_small_molecule_dataset_for_machine_learning-based_retention_time_prediction/8038913)
 
 **Collision cross section prediction** <a id="collision-cross-section-prediction"></a>
 
-- [Anal. Chem. 2022] [AllCCS2] Zhang, Haosong, et al. [AllCCS2: Curation of Ion Mobility Collision Cross-Section Atlas for Small Molecules Using Comprehensive Molecular Representations](https://pubs.acs.org/doi/full/10.1021/acs.analchem.3c02267?casa_token=ploVY56aIwAAAAAA%3AXxRQix-0R_Ui8w7ektuTCYyXub4DGfg65KHkTVMTvisspPCEiAhRdq3MBofdHE0Xv6yMKZE7W69mFv4v) [\[code\]](http://allccs.zhulab.cn/)
-- [Anal. Chem. 2021] [CCSP 2.0] Rainey, Markace A., et al. [CCS Predictor 2.0: An open-source jupyter notebook tool for filtering out false positives in metabolomics](https://pubs.acs.org/doi/full/10.1021/acs.analchem.2c03491?casa_token=EIp4r9idQT0AAAAA%3Aq-nm39gY0fiQqfpkgQhf3v9cvUWTUpwmEj_qb8dENafbRtV53R0YUbTWpwdL-VGHLycHPMEGIUaTA-C3) [\[code\]](https://github.com/facundof2016/CCSP2.0)
+- [Anal. Chem. 2024] de Cripan,  et al. [Predicting the Predicted: A Comparison of Machine Learning-Based Collision Cross-Section Prediction Models for Small Molecules](https://pubs.acs.org/doi/10.1021/acs.analchem.4c00630)
+- [Anal. Chem. 2022] [AllCCS2] Zhang, Haosong, et al. [AllCCS2: Curation of Ion Mobility Collision Cross-Section Atlas for Small Molecules Using Comprehensive Molecular Representations](https://pubs.acs.org/doi/full/10.1021/acs.analchem.3c02267) [\[code\]](http://allccs.zhulab.cn/)
+- [Anal. Chem. 2022] [CCSP 2.0] Rainey, Markace A., et al. [CCS Predictor 2.0: An open-source jupyter notebook tool for filtering out false positives in metabolomics](https://pubs.acs.org/doi/full/10.1021/acs.analchem.2c03491) [\[code\]](https://github.com/facundof2016/CCSP2.0)
 - [Nat. Commun 2020] [AllCCS] Zhou, Zhiwei, et al. [Ion mobility collision cross-section atlas for known and unknown metabolite annotation in untargeted metabolomics](https://www.nature.com/articles/s41467-020-18171-8) [\[code\]](https://github.com/ZhuMetLab/AllCCS)
-- [Anal. Chem. 2019] [DeepCCS] Plante, Pier-Luc, et al. [Predicting ion mobility collision cross-sections using a deep neural network: DeepCCS](https://pubs.acs.org/doi/full/10.1021/acs.analchem.8b05821?casa_token=kUbfnZd1X7UAAAAA%3A5cfF6_3stVXfTgxMgmR8oeYXVNodkXKURjuZgzdHhXMyewwES3jYgNQbwhwEyl_7Xenag4Zpi4qA0PGA) [\[code\]](https://github.com/plpla/DeepCCS/)
+- [Anal. Chem. 2019] [DeepCCS] Plante, Pier-Luc, et al. [Predicting ion mobility collision cross-sections using a deep neural network: DeepCCS](https://pubs.acs.org/doi/full/10.1021/acs.analchem.8b05821) [\[code\]](https://github.com/plpla/DeepCCS/)
 
 ### Mass spectra representation learning and matching
 
