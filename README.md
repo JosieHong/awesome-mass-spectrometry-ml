@@ -58,6 +58,8 @@ Keep updating the awesome machine-learning papers and codes related to small mol
 **Collision cross section**: 
 
 - [AllCCS](https://www.nature.com/articles/s41467-020-18171-8): This collection includes more than 5,000 experimental CCS records and approximately 12 million calculated CCS values for over 1.6 million small molecules.
+- [AllCCS2](https://pubs.acs.org/doi/10.1021/acs.analchem.3c02267): Compared to AllCCS, AllCCS2 incorporates newly available experimental CCS data, including 10,384 records from 4,326 compounds. After standardization, 7,713 unified CCS values with confidence scores were added. 
+- [METLIN-CCS](https://www.nature.com/articles/s41592-023-02078-5): The METLIN-CCS database includes collision cross section (CCS) values derived from IMS data for more than 27,000 molecular standards across 79 chemical classes. 
 
 
 
