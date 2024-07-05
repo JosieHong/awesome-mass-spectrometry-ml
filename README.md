@@ -124,6 +124,7 @@ According to the information embedded in the model, the molecular representation
 
 - [Patterns 2022] [SELFIES] Krenn, Mario, et al. [SELFIES and the future of molecular string representations](https://www.sciencedirect.com/science/article/pii/S2666389922002069) [\[code\]](https://github.com/aspuru-guzik-group/selfies)
 - [Nat. Mach. Intell. 2022] [MolFormer] Ross, Jerret, et al. [Large-scale chemical language representations capture molecular structure and properties](https://www.nature.com/articles/s42256-022-00580-7) [\[code\]](https://github.com/IBM/molformer)
+- [Chem. Sci. 2022] [R-SMILES] Zhong, Zipeng, et al. [Root-aligned SMILES: a tight representation for chemical reaction prediction](https://pubs.rsc.org/en/content/articlelanding/2022/sc/d2sc02763a) [\[code\]](https://github.com/otori-bird/retrosynthesis)
 - [BCB 2019] [SMILES-BERT] Wang, Sheng, et al. [SMILES-BERT: large scale unsupervised pre-training for molecular property prediction](https://dl.acm.org/doi/abs/10.1145/3307339.3342186) [\[code\]](https://github.com/uta-smile/SMILES-BERT)
 
 
