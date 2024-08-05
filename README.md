@@ -49,7 +49,7 @@ Keep updating the awesome machine-learning papers and codes related to small mol
 - [NIST23](https://www.sisweb.com/software/nist-msms.htm): The NIST MS/MS Library 2023 is a collection of MS/MS spectra and search software. It contains 2,374,064 MS/MS spectra from 399,267 small molecules.
 - [MoNA](https://mona.fiehnlab.ucdavis.edu/): MoNA currently contains 2,061,612 mass spectral records from experimental and in-silico libraries, as well as from user contributions.
 - [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp): GNPS is a web-based mass spectrometry ecosystem that aims to be an open-access knowledge base for the community-wide organization and sharing of raw, processed, or annotated fragmentation mass spectrometry data (MS/MS).
-- [HMDB 5.0](https://hmdb.ca/downloads): The Human Metabolome Database (HMDB) Version 5.0 is an extensive and freely accessible electronic resource that contains contains 220,945 metabolite entries and their's experimental MS/MS spectra present in the human body. 
+- [HMDB 5.0](https://hmdb.ca/downloads): The Human Metabolome Database (HMDB) Version 5.0 is an extensive and freely accessible electronic resource that contains 220,945 metabolite entries present in the human body and their experimental MS/MS spectra. 
 - [Tandem Mass Spectrometry across Platforms](https://pubs.acs.org/doi/10.1021/acs.analchem.3c05576): While not designed for machine learning, this dataset compares mass spectrometers from five manufacturers, revealing high consistency at 20 eV compared to 0, 10, and 40 eV.
 
 **Retention time**: 
