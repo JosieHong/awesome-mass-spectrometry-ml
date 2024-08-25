@@ -15,10 +15,15 @@ Keep updating the awesome machine-learning papers and codes related to small mol
 ## Contents
 
 * [Databases](#databases)
+    * [Molecular properties](#data-molecular-prop)
+    * [Mass spectrometry](#data-molecular-msms)
+    * [Retention time](#data-molecular-rt)
+    * [Collision cross section](#data-molecular-ccs)
 * [Papers](#papers)
     * [Survey papers](#survey-papers)
+    * [Discussions in databases](#discussions-in-database)
+    * [Discussions in pre-train models](#discussions-in-pre-train-models)
     * [Small molecular representation learning](#small-molecular-representation-learning)
-        * [Discussions in pre-train models](#discussion-in-pretrain-models)
         * [Point-based (or quantum-based) methods](#point-based-or-quantum-based-methods)
         * [Graph-based methods](#graph-based-methods)
         * [Sequence-based methods](#sequence-based-methods)
@@ -35,7 +40,7 @@ Keep updating the awesome machine-learning papers and codes related to small mol
 
 ## Databases
 
-**(Quantum-related) molecular properties**: 
+**Molecular properties**: <a id="data-molecular-prop"></a>
 
 - [OC20 & OC22](https://opencatalystproject.org/): The Open Catalyst Project focuses on using AI to find new renewable energy storage catalysts, releasing the OC20 and OC22 datasets with 1.3 million molecular relaxations from 260 million DFT calculations for research support. 
 - [QM9](https://www.nature.com/articles/sdata201422): This dataset includes the computed geometric, energetic, electronic, and thermodynamic properties of 134,000 stable small organic molecules composed of CHONF.
@@ -44,26 +49,23 @@ Keep updating the awesome machine-learning papers and codes related to small mol
 - [PCQM4Mv2](https://ogb.stanford.edu/docs/lsc/pcqm4mv2/): PCQM4Mv2 is a quantum chemistry dataset derived from the PubChemQC project, focusing on the ML task of predicting DFT-calculated HOMO-LUMO energy gaps of molecules using their 2D graphs, a significant task due to the expense of obtaining 3D equilibrium structures. 
 - [MoleculeNet](https://moleculenet.org/): MoleculeNet is a benchmark for testing machine learning methods on molecular properties, featuring over 700,000 compounds from multiple databases, integrated into the DeepChem package, and evaluates model performances using metrics like AUC-ROC, AUC-PRC, RMSE, and MAE. 
 
-**MS/MS**: 
+**MS/MS**: <a id="data-molecular-msms"></a>
 
 - [NIST23](https://www.sisweb.com/software/nist-msms.htm): The NIST MS/MS Library 2023 is a collection of MS/MS spectra and search software. It contains 2,374,064 MS/MS spectra from 399,267 small molecules.
 - [MoNA](https://mona.fiehnlab.ucdavis.edu/): MoNA currently contains 2,061,612 mass spectral records from experimental and in-silico libraries, as well as from user contributions.
 - [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp): GNPS is a web-based mass spectrometry ecosystem that aims to be an open-access knowledge base for the community-wide organization and sharing of raw, processed, or annotated fragmentation mass spectrometry data (MS/MS).
 - [HMDB 5.0](https://hmdb.ca/downloads): The Human Metabolome Database (HMDB) Version 5.0 is an extensive and freely accessible electronic resource that contains 220,945 metabolite entries present in the human body and their experimental MS/MS spectra. 
-- [Tandem Mass Spectrometry across Platforms](https://pubs.acs.org/doi/10.1021/acs.analchem.3c05576): While not designed for machine learning, this dataset compares mass spectrometers from five manufacturers, revealing high consistency at 20 eV compared to 0, 10, and 40 eV.
 
-**Retention time**: 
+**Retention time**: <a id="data-molecular-rt"></a>
 
 - [SMRT](https://www.nature.com/articles/s41467-019-13680-7): This dataset presents an experimentally acquired reverse-phase chromatography retention time dataset, covering up to 80,038 small molecules.
 - [RepoRT](https://chemrxiv.org/engage/chemrxiv/article-details/64a5a08c9ea64cc1677e120f): RepoRT currently contains 373 datasets, 8,809 unique compounds, and 88,325 retention time entries measured on 49 different chromatographic columns using various eluents, flow rates, and temperatures.
 
-**Collision cross section**: 
+**Collision cross section**: <a id="data-molecular-ccs"></a>
 
 - [AllCCS](https://www.nature.com/articles/s41467-020-18171-8): This collection includes more than 5,000 experimental CCS records and approximately 12 million calculated CCS values for over 1.6 million small molecules.
 - [AllCCS2](https://pubs.acs.org/doi/10.1021/acs.analchem.3c02267): Compared to AllCCS, AllCCS2 incorporates newly available experimental CCS data, including 10,384 records from 4,326 compounds. After standardization, 7,713 unified CCS values with confidence scores were added. 
 - [METLIN-CCS](https://www.nature.com/articles/s41592-023-02078-5): The METLIN-CCS database includes collision cross section (CCS) values derived from IMS data for more than 27,000 molecular standards across 79 chemical classes. 
-
-
 
 ## Papers
 
@@ -73,14 +75,19 @@ Keep updating the awesome machine-learning papers and codes related to small mol
 - [IJCAI 2023] Xia, Jun, et al. [A Systematic Survey of Chemical Pre-trained Models](https://www.ijcai.org/proceedings/2023/760)
 - [J. Cheminform. 2013] Scheubert, Kerstin, et al. [Computational mass spectrometry for small molecules](https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-5-12)
 
-### Small molecular representation learning
+### Discussions in database
 
-According to the information embedded in the model, the molecular representation learning models are categorized as point-based (or quantum-based) methods, graph-based methods, and sequence-based methods. Because the number of graph-based methods is huge, they are further divided into self-supervised learning and supervised learning manners. It is worth noting that the difference between point-based (or quantum-based) methods and graph-based methods is if bonds (i.e. edges) are included in the encoding. 
+- [Anal. Chem. 2024] Hoang, Corey, et al. [Tandem Mass Spectrometry across Platforms](https://pubs.acs.org/doi/10.1021/acs.analchem.3c05576)
+- [bioRxiv 2024] Kretschmer, Fleming, et al. [Small molecule machine learning: All models are wrong, some may not even be useful](https://www.biorxiv.org/content/10.1101/2023.03.27.534311v2.abstract)
 
-**Discussions in pre-train models** <a id="discussion-in-pretrain-models"></a>
+### Discussions in pre-train models
 
 - [JCIM 2023] Zhang, Ziqiao, et al. [Can Pre-trained Models Really Learn Better Molecular Representations for AI-aided Drug Discovery?](https://pubs.acs.org/doi/10.1021/acs.jcim.3c01707)
 - [NeurIPS 2022] Sun, Ruoxi, et al. [Does GNN Pretraining Help Molecular Representation?](https://proceedings.neurips.cc/paper_files/paper/2022/hash/4ec360efb3f52643ac43fda570ec0118-Abstract-Conference.html)
+
+### Small molecular representation learning
+
+According to the information embedded in the model, the molecular representation learning models are categorized as point-based (or quantum-based) methods, graph-based methods, and sequence-based methods. Because the number of graph-based methods is huge, they are further divided into self-supervised learning and supervised learning manners. It is worth noting that the difference between point-based (or quantum-based) methods and graph-based methods is if bonds (i.e. edges) are included in the encoding. 
 
 **Point-based (or quantum-based) methods** <a id="point-based-or-quantum-based-methods"></a>
 
