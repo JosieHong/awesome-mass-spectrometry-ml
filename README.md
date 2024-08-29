@@ -195,6 +195,7 @@ According to the information embedded in the model, the molecular representation
 
 ## Related awesome lists
 
+- [Awsome Mass Spectra Libraries](https://github.com/merlin-ms/awesome-mass-spectral-libraries): This repository contains the latest libraries for mass spectral data and related properties. 
 - [Awesome Small Molecule Machine Learning](https://github.com/benb111/awesome-small-molecule-ml): This repository focuses on machine learning topics related to small molecules.
 - [Awesome Cheminformatics](https://github.com/hsiaoyi0504/awesome-cheminformatics): This repository concentrates on computer-based methods in chemistry.
 - [Awesome Python Chemistry](https://github.com/lmmentel/awesome-python-chemistry): This repository is dedicated to Python-based frameworks, libraries, software, and resources in the field of Chemistry.
