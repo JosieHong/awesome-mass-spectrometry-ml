@@ -66,7 +66,8 @@ Keep updating the awesome machine-learning papers and codes related to small mol
 
 - [AllCCS](https://www.nature.com/articles/s41467-020-18171-8): This collection includes more than 5,000 experimental CCS records and approximately 12 million calculated CCS values for over 1.6 million small molecules.
 - [AllCCS2](https://pubs.acs.org/doi/10.1021/acs.analchem.3c02267): Compared to AllCCS, AllCCS2 incorporates newly available experimental CCS data, including 10,384 records from 4,326 compounds. After standardization, 7,713 unified CCS values with confidence scores were added. 
-- [METLIN-CCS](https://www.nature.com/articles/s41592-023-02078-5): The METLIN-CCS database includes collision cross section (CCS) values derived from IMS data for more than 27,000 molecular standards across 79 chemical classes. 
+- [METLIN-CCS](https://www.nature.com/articles/s41592-023-02078-5): The METLIN-CCS database includes collision cross section (CCS) values derived from IMS data for more than 27,000 molecular standards across 79 chemical classes.
+- [CCSBase](https://pubs.acs.org/doi/10.1021/acs.analchem.9b05772): CCSbase is an integrated platform consisting of a comprehensive database of CCS measurements taken from a variety of sources and a high-quality and high-throughput CCS prediction model trained with this database using machine learning. [Website](https://ccsbase.net/)
 
 ## Papers
 
@@ -151,7 +152,7 @@ According to the information embedded in the model, the molecular representation
 - [Anal. Chem. 2021] Wang, Fei, et al. [CFM-ID 4.0: more accurate ESI-MS/MS spectral prediction and compound identification](https://pubs.acs.org/doi/full/10.1021/acs.analchem.1c01465) [\[code\]](https://hub.docker.com/r/wishartlab/cfmid)
 - [ACS Cent. Sci. 2019] Wei, Jennifer N., et al. [Rapid prediction of electron–ionization mass spectrometry using neural networks](https://pubs.acs.org/doi/full/10.1021/acscentsci.9b00085) [\[code\]](https://github.com/brain-research/deep-molecular-massspec)
 
-**Retetntion time prediction** <a id="retetntion-time-prediction"></a>
+**Retention time prediction** <a id="retetntion-time-prediction"></a>
 
 - [Bioinformatics 2024] [RT-Transformer] Xue, Jun, et al. [RT-Transformer: Retention time prediction for metabolite annotation to assist in metabolite identification](https://academic.oup.com/bioinformatics/article/40/3/btae084/7613958) [\[code\]](https://github.com/01dadada/RT-Transformer)
 - [J. Chromatogr. A 2023] [DeepGCN-RT] Kang, Qiyue, et al. [Deep graph convolutional network for small-molecule retention time prediction](https://www.sciencedirect.com/science/article/pii/S0021967323006647) [\[code\]](https://github.com/kangqiyue/DeepGCN-RT)
