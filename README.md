@@ -33,6 +33,7 @@ Keep updating the awesome machine-learning papers and codes related to small mol
         * [Collision cross section prediction](#collision-cross-section-prediction)
     * [Mass spectra representation learning and matching](#mass-spectra-representation-learning-and-matching)
     * [Chemical formula prediction from mass spectra](#chemical-formula-prediction-from-mass-spectra)
+    * [Mass spectra peak annotation/assignment](#mass-spectra-peak-annotationassignment)
 * [Machine learning in small molecules chromatography](#machine-learning-in-small-molecules-chromatography)
 * [Related awesome lists](#related-awesome-lists)
 
@@ -180,7 +181,11 @@ According to the information embedded in the model, the molecular representation
 - [Nat. Methods 2023] [BUDDY] Xing, Shipei, et al. [BUDDY: molecular formula discovery via bottom-up MS/MS interrogation](https://www.nature.com/articles/s41592-023-01850-x) [\[code1\]](https://github.com/Philipbear/msbuddy) [\[code2\]](https://github.com/Philipbear/BUDDY_Metabolomics) 
 - [Nat. Methods 2019] [SIRIUS 4] Dührkop, Kai, et al. [SIRIUS 4: a rapid tool for turning tandem mass spectra into metabolite structure information](https://www.nature.com/articles/s41592-019-0344-8) [\[code\]](https://github.com/boecker-lab/sirius)
 
+### Mass spectra peak annotation/assignment
 
+- [J. Cheminform. 2016] Ruttkies, Christoph, et al. [MetFrag relaunched: incorporating strategies beyond in silico fragmentation](https://link.springer.com/article/10.1186/S13321-016-0115-9) [\[website\]](https://ipb-halle.github.io/MetFrag/)
+- [Anal. Chem. 2014] Ma, Yan, et al. [MS2Analyzer: A software for small molecule substructure annotations from accurate tandem mass spectra](https://pubs.acs.org/doi/full/10.1021/ac502818e) [\[website\]](https://fiehnlab.ucdavis.edu/projects/MS2Analyzer/)
+- [Nucleic Acids Res. 2014] Allen, Felicity, et al. [CFM-ID: a web server for annotation, spectrum prediction and metabolite identification from tandem mass spectra](https://academic.oup.com/nar/article/42/W1/W94/2437594) [\[website\]](https://cfmid.wishartlab.com/) *CFM-ID is designed for three tasks: spectrum prediction, peak assignment, and compound identification.*
 
 ## Machine learning in small molecules chromatography
 
