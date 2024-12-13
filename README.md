@@ -20,7 +20,7 @@ Keep updating the awesome machine-learning papers and codes related to small mol
     * [Retention time](#data-molecular-rt)
     * [Collision cross section](#data-molecular-ccs)
 * [Papers](#papers)
-    * [Survey papers](#survey-papers)
+    * [Survey/Review papers](#surveyreview-papers)
     * [Discussions in databases](#discussions-in-database)
     * [Discussions in pre-train models](#discussions-in-pre-train-models)
     * [Small molecular representation learning](#small-molecular-representation-learning)
@@ -71,10 +71,10 @@ Keep updating the awesome machine-learning papers and codes related to small mol
 
 ## Papers
 
-### Survey papers
+### Survey/Review papers
 
-- [TrAC 2021] Debus, Bruno, et al. [Deep learning in analytical chemistry](https://www.sciencedirect.com/science/article/pii/S016599362100282X)
 - [IJCAI 2023] Xia, Jun, et al. [A Systematic Survey of Chemical Pre-trained Models](https://www.ijcai.org/proceedings/2023/760)
+- [TrAC 2021] Debus, Bruno, et al. [Deep learning in analytical chemistry](https://www.sciencedirect.com/science/article/pii/S016599362100282X)
 - [J. Cheminform. 2013] Scheubert, Kerstin, et al. [Computational mass spectrometry for small molecules](https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-5-12)
 
 ### Discussions in database
@@ -144,6 +144,7 @@ According to the information embedded in the model, the molecular representation
 
 **Tandem mass spectra prediction predicton** <a id="msms-predicton"></a>
 
+- [Anal. Chem. 2024] [PPGB_MS2] Zheng, Fujian, et al. [Predicting Tandem Mass Spectra of Small Molecules Using Graph Embedding of Precursor-Product Ion Pair Graph](https://pubs.acs.org/doi/full/10.1021/acs.analchem.4c04375) [\[code\]](https://github.com/zhengfj1994/PPGB_MS2)
 - [Anal. Chem. 2023] Wang, Fei, et al. [Deep Learning-Enabled MS/MS Spectrum Prediction Facilitates Automated Identification Of Novel Psychoactive Substances](https://pubs.acs.org/doi/10.1021/acs.analchem.3c02413) [\[code\]](https://nps-ms.ca/users/sign_in)
 - [Nat. Mach. Intell. 2023] Goldman, Samuel, et al. [Annotating metabolite mass spectra with domain-inspired chemical formula transformers](https://www.nature.com/articles/s42256-023-00708-3) [\[code\]](https://github.com/samgoldman97/mist)
 - [Nat. Mach. Intell. 2024] Young, Adamo, et al. [Tandem mass spectrum prediction for small molecules using graph transformers](https://arxiv.org/abs/2111.04824) [\[code\]](https://github.com/Roestlab/massformer) 
