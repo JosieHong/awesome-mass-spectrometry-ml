@@ -52,6 +52,7 @@ Keep updating the awesome machine-learning papers and codes related to small mol
 
 **MS/MS**: <a id="data-molecular-msms"></a>
 
+- [MassSpecGym](https://github.com/pluskal-lab/MassSpecGym): MassSpecGym is a benchmark for the discovery and identification of molecules containing high-quality 231K MS/MS spectra for 19K molcules. 
 - [NIST23](https://www.sisweb.com/software/nist-msms.htm): The NIST MS/MS Library 2023 is a collection of MS/MS spectra and search software. It contains 2,374,064 MS/MS spectra from 399,267 small molecules.
 - [MoNA](https://mona.fiehnlab.ucdavis.edu/): MoNA currently contains 2,061,612 mass spectral records from experimental and in-silico libraries, as well as from user contributions.
 - [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp): GNPS is a web-based mass spectrometry ecosystem that aims to be an open-access knowledge base for the community-wide organization and sharing of raw, processed, or annotated fragmentation mass spectrometry data (MS/MS).
