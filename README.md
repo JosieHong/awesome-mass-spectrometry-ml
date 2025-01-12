@@ -81,6 +81,7 @@ Keep updating the awesome machine-learning papers and codes related to small mol
 
 ### Discussions in database
 
+- [Nat. Commun 2025] Kretschmer, Fleming, et al. [Coverage bias in small molecule machine learning](https://www.nature.com/articles/s41467-024-55462-w) 
 - [Anal. Chem. 2024] Hoang, Corey, et al. [Tandem Mass Spectrometry across Platforms](https://pubs.acs.org/doi/10.1021/acs.analchem.3c05576)
 - [bioRxiv 2024] Kretschmer, Fleming, et al. [Small molecule machine learning: All models are wrong, some may not even be useful](https://www.biorxiv.org/content/10.1101/2023.03.27.534311v2.abstract)
 
